@@ -175,6 +175,6 @@ footer {
     z-index: 2000;
 }
 #nav-menu .dropdown-menu {
-    left: inherit;
-    right: 0px;
+    left: 14px;
+    
 }
