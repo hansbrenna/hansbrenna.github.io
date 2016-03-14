@@ -9,6 +9,7 @@ tagline:
 
 
 {% for post in site.posts %}
+{% include JB/post_date %}
 {% include JB/post_content %}
 {% endfor %}
 
