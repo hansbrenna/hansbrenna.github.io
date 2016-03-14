@@ -11,7 +11,7 @@ tags: [climate]
 
 The black metal band Solefald has a track called [Sagateller](https://m.youtube.com/watch?v=F4Ki1xy55Vg) on the album Black for Death where one line of lyrics reads “Ignorance, the dragon never dies”.
 
-I have been debating climate on the internet the last week, and here i really feel that Ignorance (of the wilful kind that is) is present. Participating in these discussions really feels like attempting to kill a dragon that sprouts new heads every time one is cut off. The worst is when you spend time writing a coherent argument answering someones objctions to climate science, and they skip right passt you and continue using the same discounted arguments somewhere else. 
+I have been debating climate on the internet the last week, and here i really feel that Ignorance (of the wilful kind that is) is present. Participating in these discussions really feels like attempting to kill a dragon that sprouts new heads every time one is cut off. The worst is when you spend time writing a coherent argument answering someones objctions to climate science, and they skip right past you and continue using the same discounted arguments somewhere else. 
 
 ## Remote Sensing System TLT trend analysis
 
