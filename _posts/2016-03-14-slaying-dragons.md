@@ -16,3 +16,7 @@ The dragon Ignorance is very much alive and well today, and it rears it’s mons
 I will go into one particular example, that I come across almost every time i involve myself in discussions about climate. The trend in global warming since 1998. The argument goes as follows: Since 1998 there has been almost no/very little/negative global warming, then a reference to a sattellite dataset with a trendline drawn from 1998 until today. Often the set is cropped to start in 1998 as well to undermine the perception of the long-term trend. My argument is that the trend from 1998 until today is not robust, a point that has probably been made many times, but that I wanted to make myself. 1998 was an outlier in global temperature anomalies, because of the very strong El Ñino that year. 
 
 I downloaded the Remote Sensing Systems (RSS) global mean lower troposphere temperature anomaly dataset from (link) (I wanted to use the UAH set, but I couldn’t get the site open) and used Python and Pandas to do trend analysis with several years as
+
+![RSS trend lines](https://raw.githubusercontent.com/hansbrenna/RSS_trend_analysis/master/trendlines.png)
+
+![RSS trend is not robust](https://raw.githubusercontent.com/hansbrenna/RSS_trend_analysis/master/trend.png)
