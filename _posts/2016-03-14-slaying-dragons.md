@@ -9,9 +9,11 @@ tags: [climate]
 
 # Slaying dragons
 
-The black metal band Solefald has a song called [Sagateller](https://m.youtube.com/watch?v=F4Ki1xy55Vg) on the album Black for Death where one line of lyrics reads “Ignorance, the dragon never dies”. “In the Midgard of men they call you sagateller. In the Asgard of gods they call you dragonkiller” Ignorance is likened to an immortal dragon and the skald, the keeper and transmitter of knowledge and wisdom, as the hero attempting to remove the threat of ignorance to society.
+The black metal band Solefald has a track called [Sagateller](https://m.youtube.com/watch?v=F4Ki1xy55Vg) on the album Black for Death where one line of lyrics reads “Ignorance, the dragon never dies”.
 
-The dragon Ignorance is very much alive and well today, and it rears it’s monstrous hydra-headed form everywhere. If this all sound very dramatic, I have a rather more prosaic point to make. I have been debating climate on the internet the last week, and here i really feel that the dragon Ignorance (of the wilful kind that is) is present. The amount of ignorant arguments that are written in all sincerity by some people is simply baffling. 
+The dragon Ignorance is very much alive and well today, and it rears it’s monstrous form everywhere. I have been debating climate on the internet the last week, and here i really feel that Ignorance (of the wilful kind that is) is present. Participating in these discussions really feels like attempting to kill a dragon that sprouts new heads every time one is cut off. The amount of ignorance present in arguments that are written in all sincerity by some people is simply baffling. 
+
+## Remote Sensing System TLT trend analysis
 
 I will go into one particular example, that I come across almost every time i involve myself in discussions about climate. The trend in global warming since 1998. The argument goes as follows: Since 1998 there has been almost no/very little/negative global warming, then a reference to a sattellite dataset with a trendline drawn from 1998 until today. Often the set is cropped to start in 1998 as well to undermine the perception of the long-term trend. A typical example is this one from [Climate Depot](http://www.climatedepot.com/2015/09/02/a-new-record-pause-length-satellite-data-no-global-warming-for-18-years-8-months/). My argument is that the trend from 1998 until today is not robust, a point that has probably been made many times, but that I wanted to make myself. 
 
@@ -26,3 +28,8 @@ Figure 2 shows the trend in K/decade starting from every month in the data set o
 
 ![RSS trend is not robust](https://raw.githubusercontent.com/hansbrenna/RSS_trend_analysis/master/trends.png)
 > Figure 2: Decadal temperature trend bassed on each month in the RSS dataset. The trend calculated from 1998 is two orders of magnitude lower than the surrounding periods.
+
+## In summary
+
+The trend in sattellite measured temperatures since 1998 is a loved argument by climate change deniers. I think it is seriously misleading to use 1998 as the starting point, since using this year does not give robust trends. Finally, has global warming slowed in the new milennium? Trends calculated based on times after 1998 are a bit lower than the long term trend, but increase continued and there was no return to the previous normal temperatures in later years. Thus 1998 looks a step change in global mean lower tropospherer temperatures. What will be interesting to see is what will happen over the next 10 years, since 2015-2016 will be another ENSO-driven outlier from the new higher baseline. Will we see a return to the smooth increase of the period before 1998 or are we now in a regime where global warming comes in the form of step changes every few ENSO cycles? It will be interesting to see.
+
