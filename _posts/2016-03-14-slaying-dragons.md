@@ -7,7 +7,7 @@ tags: [climate]
 ---
 {% include JB/setup %}
 
-# [Slaying dragons using Python and Pandas]({{ post.permalink }})
+# [Slaying dragons using Python and Pandas]({{ post.link }})
 
 The black metal band Solefald has a track called [Sagateller](https://m.youtube.com/watch?v=F4Ki1xy55Vg) on the album Black for Death where one line of lyrics reads “Ignorance, the dragon never dies”.
 
