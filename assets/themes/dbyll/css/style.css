@@ -172,7 +172,7 @@ footer {
 #nav-menu{
     position: fixed;
     top: 45px;
-    right: 45px;
+    right: -30px;
     z-index: 2000;
 }
 #nav-menu .dropdown-menu {
