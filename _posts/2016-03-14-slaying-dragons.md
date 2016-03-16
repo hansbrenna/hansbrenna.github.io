@@ -20,11 +20,13 @@ I downloaded the Remote Sensing Systems (RSS) global mean lower troposphere temp
 A few things are immediately clear: The trend over the entire data set is 0.13 K/decade. The year 1998 was a clear outlier (it was a strong El Ñino year). Trends calculated based on 1998 or the years immidiately prior to it are significantly smaller than the long term trend. Having an outlier at the beginning of the data set really skews the entire trend line a lot, (having one at the end is impacting the trend a lot as well, but the reasonable choice is to calculate the trend until the end of the data set.) and choosing an outlier as the starting point of the trend analysis is a powerful way of getting the result you want.
 
 ![RSS trend lines](https://raw.githubusercontent.com/hansbrenna/RSS_trend_analysis/master/trendlines.png)
+<br>
 > Figure 1: The RSS global mean lower troposphere temperature (TLT) with trendlines calculated based on different starting times.
 
 Figure 2 shows the trend in K/decade starting from every month in the data set on a logarithmic y-axis. The point of this figure is to show that as we get to 1998 as the starting point, the trend falls off precipitously by almost two orders of magnitude, while rebounding almost immediately afterwards. Of course, as we get towards the end of the data set, the trend becomes increasingly meaningless, but the dip around 1998 powerfully shows the disingeniousness of choosing this year as the starting point of any trend analysis. 
 
 ![RSS trend is not robust](https://raw.githubusercontent.com/hansbrenna/RSS_trend_analysis/master/trends.png)
+<br>
 > Figure 2: Decadal temperature trend bassed on each month in the RSS dataset. The trend calculated from 1998 is two orders of magnitude lower than the surrounding periods.
 
 ## In summary

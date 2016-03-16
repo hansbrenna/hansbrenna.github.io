@@ -9,7 +9,7 @@ tagline:
 
 
 {% for post in site.posts %}
-####{{ post.date | date_to_string }}####
+<h4>{{ post.date | date_to_string }}</h4>
 {% include JB/post_content %}
 {% endfor %}
 
