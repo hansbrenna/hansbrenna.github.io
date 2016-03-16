@@ -9,13 +9,11 @@ tags: [climate]
 
 # [Slaying dragons using Python and Pandas](http://hansbrenna.github.io/opinion/2016/03/14/slaying-dragons)
 
-The black metal band Solefald has a track called [Sagateller](https://m.youtube.com/watch?v=F4Ki1xy55Vg) on the album Black for Death where one line of lyrics reads “Ignorance, the dragon never dies”.
-
-I have been debating climate on the internet the last week, and here i really feel that Ignorance (of the wilful kind that is) is present. Participating in these discussions really feels like attempting to kill a dragon that sprouts new heads every time one is cut off. The worst is when you spend time writing a coherent argument answering someones objctions to climate science, and they skip right past you and continue using the same discounted arguments somewhere else. 
-
-## Remote Sensing System TLT trend analysis
+I have been discussing climate on the internet the last week. This can be relatively tiring, since arguments that have been debunked and discredited many times over, keep getting recycled and reused. The problem is that someone not following the topic, might not know that a certain argument has been proven false many times before. 
 
 I will go into one particular example, that I come across almost every time i involve myself in discussions about climate. The trend in global warming since 1998. The argument goes as follows: Since 1998 there has been almost no/very little/negative global warming, then a reference to a sattellite dataset with a trendline drawn from 1998 until today. Often the set is cropped to start in 1998 as well to undermine the perception of the long-term trend. A typical example is this one from [Climate Depot](http://www.climatedepot.com/2015/09/02/a-new-record-pause-length-satellite-data-no-global-warming-for-18-years-8-months/). My argument is that the trend from 1998 until today is not robust, a point that has probably been made many times, but that I wanted to make myself. 
+
+## Remote Sensing System TLT trend analysis
 
 I downloaded the Remote Sensing Systems (RSS) global mean lower troposphere temperature anomaly [dataset](http://data.remss.com/msu/graphics/TLT/time_series/RSS_TS_channel_TLT_Global_Land_And_Sea_v03_3.txt) (I wanted to use the UAH set, but I couldn’t get the site open that evening). Using Python and Pandas, I did a rudimentary trend analysis to see how robust the trend from 1998 until the end of the data set really is. The trend lines with different starting years are shown in Figure 1. 
 
@@ -34,3 +32,6 @@ Figure 2 shows the trend in K/decade starting from every month in the data set o
 The trend in sattellite measured temperatures since 1998 is a loved argument by climate change deniers. I think it is seriously misleading to use 1998 as the starting point, since using this year does not give robust trends. Finally, has global warming slowed in the new milennium? Trends calculated based on times after 1998 are a bit lower than the long term trend, but increase continued and there was no return to the previous normal temperatures in later years. Thus 1998 looks a step change in global mean lower tropospherer temperatures. What will be interesting to see is what will happen over the next 10 years, since 2015-2016 will be another ENSO-driven outlier from the new higher baseline. Will we see a return to the smooth increase of the period before 1998 or are we now in a regime where global warming comes in the form of step changes every few ENSO cycles? It will be interesting to see.
 
 I made a GitHub repository for this analysis, and it contains the data set I used, the code and the outputs, so take a look over [there](https://github.com/hansbrenna/RSS_trend_analysis) if you want.
+
+The black metal band Solefald has a track called [Sagateller](https://m.youtube.com/watch?v=F4Ki1xy55Vg) on the album Black for Death, which inspired this blog post. One line of lyrics reads “Ignorance, the dragon never dies”. 
+
