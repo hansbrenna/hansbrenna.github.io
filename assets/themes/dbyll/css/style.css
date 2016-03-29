@@ -170,10 +170,11 @@ footer {
 .badge { background: #F2756A; }
 
 #nav-menu{
-    position: fixed;
-    top: 45px;
-    right: -30px;
+    position: relative;
+    top: 80px;
+    right: 0px;
     z-index: 2000;
+    float: right;
 }
 #nav-menu .dropdown-menu {
     left: 14px;
