@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Slaying dragons"
+title: "Going to the EGU part 1"
 description: ""
 category: opinion
 tags: [climate]
