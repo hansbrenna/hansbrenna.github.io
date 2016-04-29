@@ -7,7 +7,7 @@ tags: [temperatures, climate]
 ---
 {% include JB/setup %}
 
-# Comparing the CMIP5 model temperatures to HadCRUT4
+# [Comparing the CMIP5 model temperatures to HadCRUT4](http://hansbrenna.github.io/analysis/2016/04/29/cmip5-hadcrut4-comparison)
 Often, I see the claim that the models used in the Coupled Model Intercomparison Project phase 5 (CMIP5) are overestimating global temperatures compared to what is observed. I wanted to check this myself, so I downloaded the [CMIP5 global temperatures from 42 models]() and the [HadCRUT4 global mean temperatures]() from the beacon of sound climate science [www.wattsupwiththat.com](www.wattsupwiththat.com) and got to work. The HadCRUT4 data I downloaded are missing the last year. Maybe I'll be bothered to go back and fix it later. I used pandas to open the excel data, and did some pre-processing. First I did a five-year rolling mean both data sets, then I subtracted the 20th century mean value of the HadCRUT data from bot datasets. The next step was to calculate the multimodel mean and standard deviation of the 42 CMIP5 time series.
 
 Figure 1 shows the HadCRUT4 temperatures together with the mean and standard deviation of the CMIP5 data compared to the HadCRUT4 global mean surface temperature from the beginning of the data until 2005 relative to the 20th centure HadCRUT4 mean value. For the entire period, the HadCRUT4 is well within one standard deviation of the CMIP multimodel mean, which I would interpret to mean that the CMIP5 ensemble of models, on average, is able to simulate the temperature evolution reasonably well. 
