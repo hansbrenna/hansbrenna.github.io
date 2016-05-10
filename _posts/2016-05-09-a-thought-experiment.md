@@ -2,7 +2,7 @@
 layout: post
 title: "A thought experiment"
 description: ""
-category: 
+category: Analysis
 tags: []
 ---
 {% include JB/setup %}
