@@ -34,8 +34,13 @@ The distance between the two plates is large. So large that the transit time for
 
 At time $$t=0$$ the system is in equilibrium, with incoming radiation balanced by thermal radiation from (i) and (ii). At time $$t=t_1$$ the absorptivity of (ii) is changed, to become closer to 1. As a consequence, the plate will quickly equilibrate to a new temperature and a new thermally radiating state. This change in the state of (ii) will not be detected by (i) for some time, since the information travels with the speed of light. At a later time $$t=t_2$$ the information reaches (i) which then equilibrates with the new state of (ii). This will then lead to a series of temporally distinct equilibrations to the new state in a feedback, until a new internal state of the system is realized in equilibrium with the incident radiation. This new internal state will contain a larger amount of energy. 
 
-An illustrative simulation of this system is shown in Figure 1
+An illustrative simulation of the time evolution of this system is shown in the figures below. The simulation code can be found [here](https://github.com/hansbrenna/radiation_thought_experiment/tree/master)
 ![Temperature evolution of the system described above. The steplike evolution towards equilibrium is caused by the long transit time for radiation between the plates](https://github.com/hansbrenna/radiation_thought_experiment/blob/master/temperatures.png)<br>
-Figure 1: Temperature evolution of the system described above.
+>Figure 1: Temperature evolution of the system described above.
 
+![Outgoing radiation energy](https://github.com/hansbrenna/radiation_thought_experiment/blob/master/rad_TOA.png)<br>
+>Figure 2: Outgoing radiation outside plate (ii). In equilibrium, this is equal incoming energy.
 
+What does this thought experiment tell us about the physical nature of the net transfer of energy from the surace to the greenhouse layer? The net transfer of energy happens between two plates that are isolated from knowing about the state change of the other for a long time, the information about this change will travel with the speed of light, and an instantaneous modulation of the net radiation field by this information is not a plausible explanation. In my opinion, the only reasonable way to describe the energy flow in this system is in terms of two energy fluxes leading to a net flux of energy aay from the surface. 
+
+When the transfer of radiation in the system can be considered instantaneous, the two views on the nature of the energy flux are equivalent. But the assumption of instantaneous transfer is only an approximation, so the same argument applies in principle in the normal idealized greenhouse model, as well as in the real atmosphere.
