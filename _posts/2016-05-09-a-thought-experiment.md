@@ -36,10 +36,10 @@ At time $$t=0$$ the system is in equilibrium, with incoming radiation balanced b
 
 An illustrative simulation of the time evolution of this system is shown in the figures below. The simulation code can be found [here](https://github.com/hansbrenna/radiation_thought_experiment/tree/master)
 
-![Temperature evolution of the system described above. The steplike evolution towards equilibrium is caused by the long transit time for radiation between the plates](https://github.com/hansbrenna/radiation_thought_experiment/blob/master/temperatures.png)<br>
+![Temperature evolution of the system described above. The steplike evolution towards equilibrium is caused by the long transit time for radiation between the plates](https://raw.githubusercontent.com/hansbrenna/radiation_thought_experiment/master/temperatures.png)<br>
 >Figure 1: Temperature evolution of the system described above.
 
-![Outgoing radiation energy](https://github.com/hansbrenna/radiation_thought_experiment/blob/master/rad_TOA.png)<br>
+![Outgoing radiation energy](https://raw.githubusercontent.com/hansbrenna/radiation_thought_experiment/master/rad_TOA.png)<br>
 >Figure 2: Outgoing radiation outside plate (ii). In equilibrium, this is equal incoming energy.
 
 What does this thought experiment tell us about the physical nature of the net transfer of energy from the surace to the greenhouse layer? The net transfer of energy happens between two plates that are isolated from knowing about the state change of the other for a long time, the information about this change will travel with the speed of light, and an instantaneous modulation of the net radiation field by this information is not a plausible explanation. In my opinion, the only reasonable way to describe the energy flow in this system is in terms of two energy fluxes leading to a net flux of energy aay from the surface. 
