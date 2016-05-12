@@ -9,9 +9,23 @@ tags: []
 
 # [A thought experiment concerning back radiation](http://hansbrenna.github.io/analysis/2016/05/09/a-thought-experiment)
 
+A common illustration of the greenhouse effect is the [idealized greenhouse model](http://en.wikipedia.org/wiki/idealized_greenhouse_model). This model captures some important features of the earth as a system in radiative balance. This figure from the Wikipedia page shows the basic idea.
+
+![Idealized greenhouse model illustration from wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/IdealizedGreenhouseEmissivity78.png/400px-IdealizedGreenhouseEmissivity78.png)
+
+To solve the system in equilibrium, we can use the Stephan-Boltzmann law $$j*=\sigma Tˆ4$$ on each of the layers, modified by a non-unity emissivity $$\varepsilon$$ for the atmosphere. Incoming solar and outgoing radiation have very little overlap in their spectra, so to an ok approximation, we can treat them as non-overlapping. 
+
+In this equilibrium system there are two opposite fluxes of longwave radiation energy, from the earth up and from the atmosphere down (the back radiation). This makes the net flux of energy away from the surface lower than it would have been at a given tempereature in the absence of the atmosphere, making the surface of the earth warmer to compensate.
+
 ## Some context
 
-In the following I'll use the conventional definitions of shortwave and longwave radiation as $$\lambda < x \, \mu m$$ and $$\lambda > x \, \mu m$$ respectively
+Why is this important? In a lot of places on the internet, there are all sorts of discussions concerning the nature and existence of this back radiation, usually in the context of the second law of thermodynamics making the flux of energy from the atmosphere to the surface impossibl, or forbidding it heating the surface. [See this series of posts at The Science of Doom](https://scienceofdoom.com/roadmap/back-radiation/) for a thorough discussion.
+
+Another discussion is about the physical existence of the back radiation as a separate flux of energy, or whether the prescence of the atmospheric emission of electromagnetic energy simply modulates the instantaneous radiation field leading to the net flux of upward energy. I have only recently come across this discussion in the comments at [Terje Wahl's blogg (in norwegian)](http://forskning.no/blogg/terje-wahls-blogg/ned-fra-el-ninjo). This started me thinking, and I spend a good part of the previous weekend starting to devise a thought experiment to try to argue for the physical existence of this energy flux.
+
+Conventional physics, as I was taught it in non-climate related thermodynamics, considers the back radiation to be real, but I like thinking about this kinds of thing. 
+
+In the following I'll use the conventional definitions of shortwave and longwave radiation as $$\lambda < 4 \, \mu m$$ and $$\lambda > 4 \, \mu m$$ respectively
 
 ## The thought experiment
 At $$z=0$$ we place a perfectly absorbing and emitting infinite plate (i). Homogeneous monochromatic ultraviolet radtiation ($$\lambda=200\, nm$$) is coming from an energy source at infinite distance from our setup, and radiating towards the plate at $$z=0$$. At some finite distance $$z$$, far from (i) is another plate (ii), perfectly transmitting for the incoming UV radiation and with constant absorptivity $$0 < \alpha < 1$$  for all wavelengths except $$\lambda=200\, nm$$. Both plates are thin, perfectly conducting and with negligible heat capacity. Right underneath plate (i) is a layer with emissivity 0, so that no energy is lost in that direction. Between the plates, and outside the setup is perfect vacuum.
@@ -20,4 +34,8 @@ The distance between the two plates is large. So large that the transit time for
 
 At time $$t=0$$ the system is in equilibrium, with incoming radiation balanced by thermal radiation from (i) and (ii). At time $$t=t_1$$ the absorptivity of (ii) is changed, to become closer to 1. As a consequence, the plate will quickly equilibrate to a new temperature and a new thermally radiating state. This change in the state of (ii) will not be detected by (i) for some time, since the information travels with the speed of light. At a later time $$t=t_2$$ the information reaches (i) which then equilibrates with the new state of (ii). This will then lead to a series of temporally distinct equilibrations to the new state in a feedback, until a new internal state of the system is realized in equilibrium with the incident radiation. This new internal state will contain a larger amount of energy. 
 
-How should we view the nature of this signal, physically? 
+An illustrative simulation of this system is shown in Figure 1
+![Temperature evolution of the system described above. The steplike evolution towards equilibrium is caused by the long transit time for radiation between the plates](https://github.com/hansbrenna/radiation_thought_experiment/blob/master/temperatures.png)<br>
+Figure 1: Temperature evolution of the system described above.
+
+
