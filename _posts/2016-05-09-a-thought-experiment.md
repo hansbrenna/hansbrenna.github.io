@@ -35,6 +35,7 @@ The distance between the two plates is large. So large that the transit time for
 At time $$t=0$$ the system is in equilibrium, with incoming radiation balanced by thermal radiation from (i) and (ii). At time $$t=t_1$$ the absorptivity of (ii) is changed, to become closer to 1. As a consequence, the plate will quickly equilibrate to a new temperature and a new thermally radiating state. This change in the state of (ii) will not be detected by (i) for some time, since the information travels with the speed of light. At a later time $$t=t_2$$ the information reaches (i) which then equilibrates with the new state of (ii). This will then lead to a series of temporally distinct equilibrations to the new state in a feedback, until a new internal state of the system is realized in equilibrium with the incident radiation. This new internal state will contain a larger amount of energy. 
 
 An illustrative simulation of the time evolution of this system is shown in the figures below. The simulation code can be found [here](https://github.com/hansbrenna/radiation_thought_experiment/tree/master)
+
 ![Temperature evolution of the system described above. The steplike evolution towards equilibrium is caused by the long transit time for radiation between the plates](https://github.com/hansbrenna/radiation_thought_experiment/blob/master/temperatures.png)<br>
 >Figure 1: Temperature evolution of the system described above.
 
