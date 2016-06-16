@@ -18,6 +18,10 @@ Figure 1 shows the HadCRUT4 temperatures together with the mean and standard dev
 
 What happens after 2005? In 2005 the CMIP5 historical runs end, and that means the forcings driving the temperature evolution changes from historical forcing to one of the RCP scenarios, in this case RCP4.5. Whta this means is that the forcings driving the models after 2005 lack all of the random to semi-random events with climate impacts happening from time to time, for instance large and small volcanic eruptions are not accounted for after 2005. While the last decades have been relatively quiescent, the stratospheric aerosol layer has grown over this period caused by smaller volcanic eruptions and human emissions of sulfur (Solomon et al, 2012; Ridley et al, 2014).
 
+![CMIP5 and Hadcrut¤ comparison 2005-2016](https://raw.githubusercontent.com/hansbrenna/cmip4_hadcrut4_comparison/master/hadcrut_cmip_comparison2005-2016.png)
+<br>
+> Figure 2: As above, from 2005-2016. Some data are missing from the HadCRUT4 series.
+
 In addition, as we get further away from 2005, the cyces of oscillations in the models, for instance ENSO, come out of phase with their real world counterparts. These two effects in combination can make the difference between models and observations large over shorter periods from months to decadal scales.
 
 The code used to do this analysis is available from the GitHub repository [cmip5_hadcrut4_comparison](https://github.com/hansbrenna/cmip4_hadcrut4_comparison)

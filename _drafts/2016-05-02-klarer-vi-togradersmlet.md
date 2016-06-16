@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 layout: post
 title: "Klarer vi togradersmalet?"
@@ -15,3 +16,18 @@ En kjapp gjennomgang av mulige og sannsynlige konsekvenser av to graders oppvarm
 
 ##Hvor mye skal til?
 
+=======
+---
+layout: post
+title: "Dobling av CO2?"
+description: ""
+category: Norwegian
+tags: [Commentary]
+---
+{% include JB/setup %}
+
+# Dobling av CO2-innhold i atmosfæren: Hva vil skje?
+
+Hva vil skje dersom dobling av 
+
+>>>>>>> 3538d32d03f1a0478a64e138cf663ae3f62c0250
