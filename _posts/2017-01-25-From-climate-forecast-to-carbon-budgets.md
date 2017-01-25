@@ -82,15 +82,15 @@ A main focus for climate science in the coming years should be to use whatever m
 
 ## Notes
 
-1. When designing the Norwegian Earth System Model (NorESM), instead of starting from scratch, the modeling groups took the atmosphere model (called CAM) from the climate model called CESM, an ocean model originating from the MICOM model and the carbon cycle model HAMOCC from Germany. The atmosphere model is significantly modified with respect to CAM regarding which processes to include to what detail.
+(1) When designing the Norwegian Earth System Model (NorESM), instead of starting from scratch, the modeling groups took the atmosphere model (called CAM) from the climate model called CESM, an ocean model originating from the MICOM model and the carbon cycle model HAMOCC from Germany. The atmosphere model is significantly modified with respect to CAM regarding which processes to include to what detail.
 
-2. For a spectacular illustration of parametric uncertainty, see the climateprediction.net project. Here thousands of different plausible parameter values for the same climate model were simulated. The resulting range of climate sensitivity spanned more than 10C.
+(2) For a spectacular illustration of parametric uncertainty, see the climateprediction.net project. Here thousands of different plausible parameter values for the same climate model were simulated. The resulting range of climate sensitivity spanned more than 10C.
 
-3. Whether or not this probability is well founded or not is outside the scope of this essay.
+(3) Whether or not this probability is well founded or not is outside the scope of this essay.
 
-4. On sub-global scales the answer is not so pessimistic, since the only way to get specific knowledge about regional and local scales is to self-consistently simulate the climate system at these scales. The CMIP5 ensemble can say something about changes and consequences on these scales that can not be derived from our general background knowledge. Still, assigning probabilities to these statements is unfounded.
+(4) On sub-global scales the answer is not so pessimistic, since the only way to get specific knowledge about regional and local scales is to self-consistently simulate the climate system at these scales. The CMIP5 ensemble can say something about changes and consequences on these scales that can not be derived from our general background knowledge. Still, assigning probabilities to these statements is unfounded.
 
-5. As long as global climate policy is supposed to be based on the precautionary principle, this is the only justifiable course of action in my opinion.
+(5) As long as global climate policy is supposed to be based on the precautionary principle, this is the only justifiable course of action in my opinion.
 
 ## References
 Betz, G. (2009a) ‘Underdetermination, model-ensembles and surprises: On the epistemology of scenario-analysis in climatology’, Journal for General Philosophy of Science. Springer Netherlands, 40(1), pp. 3–21. doi: 10.1007/s10838-009-9083-3.
