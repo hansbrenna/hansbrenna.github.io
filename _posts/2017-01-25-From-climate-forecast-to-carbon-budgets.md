@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "nFrom climate forecast to carbon budgets – Unfounded probabilities at the heart of climate science."
+title: "From climate forecast to carbon budgets – Unfounded probabilities at the heart of climate science."
 description: ""
 category: commentary
 tags: [commentary, carbon budgets, climate modeling, interpretation, probabilistic prediction]
