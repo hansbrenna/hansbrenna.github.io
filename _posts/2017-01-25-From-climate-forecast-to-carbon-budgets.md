@@ -35,7 +35,8 @@ One of the major efforts for the fifth IPCC AR5 was the Coupled Model Intercompa
 
 As Figure 1c shows there is an approximately linear relationship between total cumulative carbon emissions and the resulting warming. The exact relationship is weakly dependent on the actual emission scenario simulated and strongly dependent on the specific model, resulting in a large modeled range, but small differences between the multi model means from the different emission scenarios. 
 
-![Illustration of how threshold exceedance budgets can be made from climate model output](CMIP5_illustration.png)
+![Illustration of how threshold exceedance budgets can be made from climate model output](https://raw.githubusercontent.com/hansbrenna/hansbrenna.github.io/master/assets/img/CMIP5_illustration.png)
+*Figure 1: a) The four RCP scenarios, developed for the AR5, expressed in radiative forcing. b) The evolution of the global average surface tempereture to the RCP scenarios in the CMIP5 ensemble (figure TS.15 in (Stocker et al., 2013)⁠.) c) Global warming as function of cumulative CO2 emissions. The dashed line represents cumulative emissions in 2010. The solid black lines represent a simple estimate of a cumulative carbon budget for 2C warming (Modified from Figure 2.3 from  (IPCC, 2014)⁠).*
 
 If we were certain that the ensemble mean warming represents the real climate systemt we could read out from figure 1c at which cumulative carbon emission we could expect to cross this threshold. But we cannot be sure that the ensemble mean represents the true warming. By  interpreting the model ensemble probabilistically we can make an emission budget to a given probability and the simplest way to do this is to treat each model as an equally reasonable representation. 
 
