@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 ---
 {% include JB/setup %}
 
-# Hva betyr det at klimamodellene ikke stemmer med observasjonene?
+# [Hva betyr det at klimamodellene ikke stemmer med observasjonene?](http://hansbrenna.github.io/commentary/2017/01/30/hva-betyr-det-at-klimamodellene-ikke-stemmer-med-observasjonene)
 
 Carl I. Hagen fremfører i Aftenposten 20.1 at IPCCs synteserapport fra 2014 sier «For perioden fra 1998 til 2012, viser 111 av 114 tilgjengelige modellsimuleringer av klimaet en oppvarmingstrend som er større enn observasjonene». Dette er ikke det sterke resultatet som Hagen og andre ser ut til å tro. Hva betyr det egentlig at det har vært avvik mellom observasjoner og klimamodellene?
 
@@ -30,7 +30,7 @@ Disse framtidsscenariene brukes som input til klimamodellene og resultatet blir 
 
 Et av hovedinitiativene til IPCCs femte rapport (fra 2013) var modellsammenligningsprosjektet CMIP5 (Coupled Model Intercomparison Project Phase 5). Prosjektet inneholdt både historiske simuleringer og fremskrivninger. For fremskrivningene ble det utarbeidet framtidsscenarier i form av representative utslippsbaner.. Skiftet fra historiske pådriv (fra observasjonsdata) til framtidsscenariene var simuleringsår 2005, siden  det tar tid å utvikle gode pådrivsdata. Disse pådrivene på klimasystemet som ble brukt i simuleringene etter 2005 avviker naturligvis fra den virkelige utviklingen siden 2005. Særlig har den nedkjølende effekten fra vulkanske aerosoler vært sterkere enn det som ble forutsatt. 
 
-![Venstre panel viser de historiske og representative utslippsbanene (RCP) som ble brukt som pådriv i CMIP5. Høyre panel viser den simulerte temperaturutviklingen frem til år 2300. Kilde: Figur TS.15 i IPCCs femte  rapport.](https://raw.githubusercontent.com/hansbrenna/hansbrenna.github.io/master/assets/img/CMIP5_illustration_RCP_T.png)
+![Venstre panel viser de historiske og representative utslippsbanene (RCP) som ble brukt som pådriv i CMIP5. Høyre panel viser den simulerte temperaturutviklingen frem til år 2300. Kilde: Figur TS.15 i IPCCs femte  rapport.](https://raw.githubusercontent.com/hansbrenna/hansbrenna.github.io/master/assets/img/CMIP5_illustration_RCP_T)
 *Figur 1: Venstre panel viser de historiske og representative utslippsbanene (RCP) som ble brukt som pådriv i CMIP5. Høyre panel viser den simulerte temperaturutviklingen frem til år 2300. Kilde: Figur TS.15 i IPCCs femte  rapport.*
 
 ## Kan vi dermed forklare utviklingen?
