@@ -4,6 +4,7 @@ title: "From climate forecast to carbon budgets – Unfounded probabilities at t
 description: ""
 category: commentary
 tags: [commentary, carbon budgets, climate modeling, interpretation, probabilistic prediction]
+excerpt_separator: <!--more-->
 ---
 {% include JB/setup %}
 
@@ -22,6 +23,8 @@ The freedom inherent in the process of formulating emission budgets combined wit
 This is a serious problem in itself, but a more fundamental problem with the emission budget concept seems to be more-or-less unexplored: Do cumulative carbon emission budgets have a sound scientific foundation?
 
 In this essay, I will explore an argument with the goal of showing that a specific type of carbon budgets derived in the IPCC 5th assessment report (AR5) (IPCC, 2013)⁠  are scientifically unfounded and that this argument also applies to other types of budgets. I will then briefly explore what this means for the scientific content of the carbon budgets and if different ways of making cumulative budgets can salvage the concept. 
+
+<!--more-->
 
 ## 1. From climate forecast to emission budget
 
