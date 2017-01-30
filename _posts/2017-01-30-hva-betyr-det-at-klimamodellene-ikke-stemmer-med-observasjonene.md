@@ -10,6 +10,8 @@ excerpt_separator: <!--more-->
 
 # [Hva betyr det at klimamodellene ikke stemmer med observasjonene?](http://hansbrenna.github.io/commentary/2017/01/30/hva-betyr-det-at-klimamodellene-ikke-stemmer-med-observasjonene)
 
+*The Norwegian right wing politician Carl Hagen wrote many rambling newspaper opinion articles about how climate science is all fake and corrupt over the last two months. This was written in a rush to answer one of the main arguments. It was unfortunately not published in the paper, so I put it here on my blog instead.*
+
 Carl I. Hagen fremfører i Aftenposten 20.1 at IPCCs synteserapport fra 2014 sier «For perioden fra 1998 til 2012, viser 111 av 114 tilgjengelige modellsimuleringer av klimaet en oppvarmingstrend som er større enn observasjonene». Dette er ikke det sterke resultatet som Hagen og andre ser ut til å tro. Hva betyr det egentlig at det har vært avvik mellom observasjoner og klimamodellene?
 
 Observasjonsdatasettene fra NASA, NOAA, UK Met Office og andre representerer våre beste estimater for jordas gjennomsnittstemperatur ved bakken. Når vi i 2017 sammenligner observasjoner og simuleringer for perioden 1998-2012 er det lett å tenke at lakmustesten på modellenes kvalitet bør være om disse stemmer godt overens. Så enkelt er det dessverre ikke, av to hovedgrunner
