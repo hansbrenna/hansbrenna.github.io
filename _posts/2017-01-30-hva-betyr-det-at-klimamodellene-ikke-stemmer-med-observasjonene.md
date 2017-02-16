@@ -4,6 +4,7 @@ title: "Hva betyr det at klimamodellene ikke stemmer med observasjonene?"
 description: ""
 category: [commentary]
 tags: [norwegian, climate debat]
+published: false
 excerpt_separator: <!--more-->
 ---
 {% include JB/setup %}
