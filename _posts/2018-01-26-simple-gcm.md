@@ -2,12 +2,13 @@
 layout: post
 title: "A really simple GCM part 1"
 description: ""
-category: simple gcm
-tags: [models,thoughts,simpler gcm]
+category: models
+tags: [models,thoughts, model code]
+excerpt_separator: <!--more-->
 ---
 {% include JB/setup %}
 
-# A really simple GCM part 1: A physicist meets modern Earth System Models.
+# [A really simple GCM part 1: A physicist meets modern Earth System Models.](http://hansbrenna.github.io/models/2018/01/26/simple-gcm)
 Last spring, when I returned to work after my paternity leave, I felt frustrated that the GCM/ESM (CESM1) I'm using for my research is so damned complicated. It's very hard to get any kind of feeling for how the massive model actually works. Of course I could spend forever reading the code and technical documentation, but the full complexity makes it difficult to grasp, and I would not have enough time to spend on actually doing my own research.
 
 Don't get me wrong, I like my model. It's just that I'm a little bit uncomfortable with using models I don't fully understand. I guess this is an aspect of a subtle cultural difference between meteorology and some other physical sciences [1]. Since I have about 6 years of training as a physicist I bring that cultural baggage with me into my climate science/meteorology work, and It's making me uncomfortable with the "black-boxiness" of modern Earth System Models. In the physics fields I trained in you're generalyy expected to build your own simulation code, and if you inherit some code you're usually inheriting it from the person who built it and you're expected to fully understand everything before using it. Needless to say, that's not how it works in modern meteorology.
@@ -24,7 +25,7 @@ My decision was made almost instantly, I would like to try to re-implement a ver
 
 Stay tuned!
 
-##References
+## References
 1. Sundberg, M. Cultures of simulations vs. cultures of calculations? The development of simulation practices in meteorology and astrophysics. Stud. Hist. Philos. Mod. Phys. 41, 273–281 (2010).
 2. Edwards, P. N. A Vast Machine: Computer Models, Climate Data, and the Politics of Global Warming. (MIT Press, 2010). doi:10.1111/j.1541-1338.2011.00522_3.x
 3. KASAHARA, A. & WASHINGTON, W. M. NCAR GLOBAL GENERAL CIRCULATION MODEL OF THE ATMOSPHERE. Mon. Weather Rev. 95, 389–402 (1967).
