@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 ---
 {% include JB/setup %}
 
-# The Simple Dynamical Core Lab is now in beta
+# [The Simple Dynamical Core Lab is now in beta](http://hansbrenna.github.io/models/2018/10/10/SDYCORE-beta)
 
 The Simple Dynamical Core Lab ([SDYCORE LAB](https://github.com/hansbrenna/sdycore_lab)) is a personal project to explore some numerical algorithms involved in primitive equations models of atmospheric dynamics in a simplified setting.
 
