@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Cultures of simulations vs. cultures of calculations: A new look at Sundberg et al 2010"
+description: ""
+category: Thoughts
+tags: [models,thoughts, model code]
+excerpt_separator: <!--more-->
+---
+{% include JB/setup %}
