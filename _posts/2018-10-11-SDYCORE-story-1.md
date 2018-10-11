@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The story of SDYCORE LAB"
+title: "The story of SDYCORE LAB part 1"
 description: ""
 category: SDYCORE
 tags: [models,thoughts, model code, SDYCORE]
@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 ---
 {% include JB/setup %}
 
-# The story of SDYCORE LAB part 1
+# [The story of SDYCORE LAB part 1](http://hansbrenna.github.io/sdycore/2018/10/11/SDYCORE-story-1)
 
 Like I've written about before, I have had a very strong interest in writing my own simple GCM/dynamical core. After several frustrating initial attempts, partly described [here](http://hansbrenna.github.io/models/2018/02/01/simple-gcm-1) I switched strategy. Rather than attempting to reimplement someone else's model from their description, I would start from the primitive equations and derive my own model, aiming for as much simplicity as possible in the system of equations.
 
