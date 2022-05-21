@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hans Brenna Schjønberg</title>
+    <link>http://hansbrenna.github.io/</link>
+    <description>Recent content on Hans Brenna Schjønberg</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 21 May 2022 12:24:53 +0200</lastBuildDate><atom:link href="http://hansbrenna.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Publications</title>
+      <link>http://hansbrenna.github.io/publications/</link>
+      <pubDate>Sat, 21 May 2022 12:36:35 +0200</pubDate>
+      
+      <guid>http://hansbrenna.github.io/publications/</guid>
+      <description>Publications of Hans Brenna Schjønberg Education:
+ PhD in Meteorology (2022) MSc in plasma physics (2013) BSc in Physics (2011)  Current employment: Cervest
+Previous employment:
+ Norwegian Meteorological Institute (2020-2021) Department of Geosciences, University of Oslo (2014-2019) DNV (2013-2014)  ORCID: https://orcid.org/0000-0003-2038-469X
+Peer reviewed publications  Brenna, H., Kutterolf, S., Mills, M. J., Niemeier, U., Timmreck, C., &amp;amp; Krüger, K. (2021). Decadal Disruption of the QBO by Tropical Volcanic Supereruptions.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://hansbrenna.github.io/about/</link>
+      <pubDate>Sat, 21 May 2022 12:22:02 +0200</pubDate>
+      
+      <guid>http://hansbrenna.github.io/about/</guid>
+      <description>bla</description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>http://hansbrenna.github.io/posts/my-first-post/</link>
+      <pubDate>Sat, 21 May 2022 12:02:21 +0200</pubDate>
+      
+      <guid>http://hansbrenna.github.io/posts/my-first-post/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
