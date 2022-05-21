@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>probabilistic prediction on Hans Brenna Schjønberg</title>
+    <link>http://hansbrenna.github.io/tags/probabilistic-prediction/</link>
+    <description>Recent content in probabilistic prediction on Hans Brenna Schjønberg</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Jan 2017 10:58:08 -0400</lastBuildDate><atom:link href="http://hansbrenna.github.io/tags/probabilistic-prediction/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From climate forecast to carbon budgets – Unfounded probabilities at the heart of climate science.</title>
+      <link>http://hansbrenna.github.io/posts/from-climate-forecast-to-carbon-budgets/</link>
+      <pubDate>Wed, 25 Jan 2017 10:58:08 -0400</pubDate>
+      
+      <guid>http://hansbrenna.github.io/posts/from-climate-forecast-to-carbon-budgets/</guid>
+      <description>&lt;p&gt;The stated goal of world climate policy is to avoid dangerous levels of global warming. This point is often, somewhat arbitrarily, defined as 2°C above preindustrial temperatures. In the context of the Paris agreement, the ambition is 1.5°C. No matter what the limit is, we need some way of knowing if we’re going to exceed the warming limit or not. The answer in the last years has been whats called cumulative carbon emission budgets or, often, just carbon budgets.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

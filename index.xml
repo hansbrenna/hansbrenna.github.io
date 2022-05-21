@@ -30,12 +30,73 @@ Peer reviewed publications  Brenna, H., Kutterolf, S., Mills, M. J., Niemeier, U
     </item>
     
     <item>
-      <title>My First Post</title>
-      <link>http://hansbrenna.github.io/posts/my-first-post/</link>
-      <pubDate>Sat, 21 May 2022 12:02:21 +0200</pubDate>
+      <title>Cultures of simulations vs. cultures of calculations: A look at Sundberg 2010</title>
+      <link>http://hansbrenna.github.io/posts/two-cultures/</link>
+      <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://hansbrenna.github.io/posts/my-first-post/</guid>
-      <description></description>
+      <guid>http://hansbrenna.github.io/posts/two-cultures/</guid>
+      <description>One of the most interesting, and perhaps personally resonant, papers I&amp;rsquo;ve ever come across is by Mikaela Sundberg (2010) and is called &amp;ldquo;Cultures of simulations vs. cultures of calculations? The development of simulation practices in meteorology and astrophysics&amp;rdquo;.
+The two cultures named in the title refers to two different approaches to numerical modeling and simulation in science. The paper looks at characteristics of these two culture in astrophysics and meteorology, and finds some differences.</description>
+    </item>
+    
+    <item>
+      <title>The story of SDYCORE LAB part 1</title>
+      <link>http://hansbrenna.github.io/posts/sdycore-story-1/</link>
+      <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://hansbrenna.github.io/posts/sdycore-story-1/</guid>
+      <description>Like I&amp;rsquo;ve written about before, I have had a very strong interest in writing my own simple GCM/dynamical core. After several frustrating initial attempts, partly described here I switched strategy. Rather than attempting to reimplement someone else&amp;rsquo;s model from their description, I would start from the primitive equations and derive my own model, aiming for as much simplicity as possible in the system of equations.
+By working in an isobaric (pressure) vertical coordinate, the equations become very simple, but implementing a non-flat surface becomes computationally hard, so I chose simplicity over realism here for the first try.</description>
+    </item>
+    
+    <item>
+      <title>SDYCORE LAB in beta</title>
+      <link>http://hansbrenna.github.io/posts/sdycore-beta/</link>
+      <pubDate>Wed, 10 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://hansbrenna.github.io/posts/sdycore-beta/</guid>
+      <description>The Simple Dynamical Core Lab (SDYCORE LAB) is a personal project to explore some numerical algorithms involved in primitive equations models of atmospheric dynamics in a simplified setting.
+The primitive equations are a set of nonlinear partial differential equations governing the large scale flow of fluids on a rotating planet. All modern weather prediction and general circulation models have at their core a solver for the primitive equations, with or without extra approximations.</description>
+    </item>
+    
+    <item>
+      <title>A really simple GCM part 1: A physicist meets modern Earth System Models</title>
+      <link>http://hansbrenna.github.io/posts/simple-gcm-1/</link>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://hansbrenna.github.io/posts/simple-gcm-1/</guid>
+      <description>&lt;p&gt;Last spring, when I returned to work after my paternity leave, I felt frustrated that the GCM/ESM (CESM1) I&amp;rsquo;m using for my research is so damned complicated. It&amp;rsquo;s very hard to get any kind of feeling for how the massive model actually works. Of course I could spend forever reading the code and technical documentation, but the full complexity makes it difficult to grasp, and I would not have enough time to spend on actually doing my own research.&lt;/p&gt;
+&lt;p&gt;Don&amp;rsquo;t get me wrong, I like my model. It&amp;rsquo;s just that I&amp;rsquo;m a little bit uncomfortable with using models I don&amp;rsquo;t fully understand. I guess this is an aspect of a subtle cultural difference between meteorology and some other physical sciences [1]. Since I have about 6 years of training as a physicist I bring that cultural baggage with me into my climate science/meteorology work, and It&amp;rsquo;s making me uncomfortable with the &amp;ldquo;black-boxiness&amp;rdquo; of modern Earth System Models. In the physics fields I trained in you&amp;rsquo;re generalyy expected to build your own simulation code, and if you inherit some code you&amp;rsquo;re usually inheriting it from the person who built it and you&amp;rsquo;re expected to fully understand everything before using it. Needless to say, that&amp;rsquo;s not how it works in modern meteorology.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hva betyr det at klimamodellene ikke stemmer med observasjonene?</title>
+      <link>http://hansbrenna.github.io/posts/klimamodellenes_begrensninger/</link>
+      <pubDate>Fri, 12 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://hansbrenna.github.io/posts/klimamodellenes_begrensninger/</guid>
+      <description>[Klimamodellenes begrensninger] Jeg skrev i februar følgende tekst for Aftenposten viten: Klimamodellenese begrensninger
+Bakgrunnen var at FrP-politiker Carl I. Hagen, med støtte fra organisasjonen Klimarealistene, hadde en offentlig raptus om klimavitenskap og global oppvarming. Mange andre var også med i debatten, med tildels mye spissere innlegg enn det jeg skrev, men jeg så en mulighet for å forsøke å få gjennom noe fagformidling oppi det hele.
+Det er vanskelig å snakke om klimamodeller og deres forhold til observert temperaturutvikling.</description>
+    </item>
+    
+    <item>
+      <title>From climate forecast to carbon budgets – Unfounded probabilities at the heart of climate science.</title>
+      <link>http://hansbrenna.github.io/posts/from-climate-forecast-to-carbon-budgets/</link>
+      <pubDate>Wed, 25 Jan 2017 10:58:08 -0400</pubDate>
+      
+      <guid>http://hansbrenna.github.io/posts/from-climate-forecast-to-carbon-budgets/</guid>
+      <description>&lt;p&gt;The stated goal of world climate policy is to avoid dangerous levels of global warming. This point is often, somewhat arbitrarily, defined as 2°C above preindustrial temperatures. In the context of the Paris agreement, the ambition is 1.5°C. No matter what the limit is, we need some way of knowing if we’re going to exceed the warming limit or not. The answer in the last years has been whats called cumulative carbon emission budgets or, often, just carbon budgets.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>A thought experiment concerning back radiation</title>
+      <link>http://hansbrenna.github.io/posts/a-thought-experiment/</link>
+      <pubDate>Mon, 09 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://hansbrenna.github.io/posts/a-thought-experiment/</guid>
+      <description>A common illustration of the greenhouse effect is the idealized greenhouse model. This model captures some important features of the earth as a system in radiative balance. This figure from the Wikipedia page shows the basic idea.
+To solve the system in equilibrium, we can use the Stephan-Boltzmann law $$j*=\sigma Tˆ4$$ on each of the layers, modified by a non-unity emissivity $$\varepsilon$$ for the atmosphere. Incoming solar and outgoing radiation have very little overlap in their spectra, so to an ok approximation, we can treat them as non-overlapping.</description>
     </item>
     
   </channel>

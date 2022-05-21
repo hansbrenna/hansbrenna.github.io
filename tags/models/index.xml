@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Hans Brenna Schjønberg</title>
-    <link>http://hansbrenna.github.io/posts/</link>
-    <description>Recent content in Posts on Hans Brenna Schjønberg</description>
+    <title>models on Hans Brenna Schjønberg</title>
+    <link>http://hansbrenna.github.io/tags/models/</link>
+    <description>Recent content in models on Hans Brenna Schjønberg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 14 Dec 2018 00:00:00 +0000</lastBuildDate><atom:link href="http://hansbrenna.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Dec 2018 00:00:00 +0000</lastBuildDate><atom:link href="http://hansbrenna.github.io/tags/models/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cultures of simulations vs. cultures of calculations: A look at Sundberg 2010</title>
       <link>http://hansbrenna.github.io/posts/two-cultures/</link>
@@ -45,36 +45,6 @@ The primitive equations are a set of nonlinear partial differential equations go
       <guid>http://hansbrenna.github.io/posts/simple-gcm-1/</guid>
       <description>&lt;p&gt;Last spring, when I returned to work after my paternity leave, I felt frustrated that the GCM/ESM (CESM1) I&amp;rsquo;m using for my research is so damned complicated. It&amp;rsquo;s very hard to get any kind of feeling for how the massive model actually works. Of course I could spend forever reading the code and technical documentation, but the full complexity makes it difficult to grasp, and I would not have enough time to spend on actually doing my own research.&lt;/p&gt;
 &lt;p&gt;Don&amp;rsquo;t get me wrong, I like my model. It&amp;rsquo;s just that I&amp;rsquo;m a little bit uncomfortable with using models I don&amp;rsquo;t fully understand. I guess this is an aspect of a subtle cultural difference between meteorology and some other physical sciences [1]. Since I have about 6 years of training as a physicist I bring that cultural baggage with me into my climate science/meteorology work, and It&amp;rsquo;s making me uncomfortable with the &amp;ldquo;black-boxiness&amp;rdquo; of modern Earth System Models. In the physics fields I trained in you&amp;rsquo;re generalyy expected to build your own simulation code, and if you inherit some code you&amp;rsquo;re usually inheriting it from the person who built it and you&amp;rsquo;re expected to fully understand everything before using it. Needless to say, that&amp;rsquo;s not how it works in modern meteorology.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Hva betyr det at klimamodellene ikke stemmer med observasjonene?</title>
-      <link>http://hansbrenna.github.io/posts/klimamodellenes_begrensninger/</link>
-      <pubDate>Fri, 12 May 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://hansbrenna.github.io/posts/klimamodellenes_begrensninger/</guid>
-      <description>[Klimamodellenes begrensninger] Jeg skrev i februar følgende tekst for Aftenposten viten: Klimamodellenese begrensninger
-Bakgrunnen var at FrP-politiker Carl I. Hagen, med støtte fra organisasjonen Klimarealistene, hadde en offentlig raptus om klimavitenskap og global oppvarming. Mange andre var også med i debatten, med tildels mye spissere innlegg enn det jeg skrev, men jeg så en mulighet for å forsøke å få gjennom noe fagformidling oppi det hele.
-Det er vanskelig å snakke om klimamodeller og deres forhold til observert temperaturutvikling.</description>
-    </item>
-    
-    <item>
-      <title>From climate forecast to carbon budgets – Unfounded probabilities at the heart of climate science.</title>
-      <link>http://hansbrenna.github.io/posts/from-climate-forecast-to-carbon-budgets/</link>
-      <pubDate>Wed, 25 Jan 2017 10:58:08 -0400</pubDate>
-      
-      <guid>http://hansbrenna.github.io/posts/from-climate-forecast-to-carbon-budgets/</guid>
-      <description>&lt;p&gt;The stated goal of world climate policy is to avoid dangerous levels of global warming. This point is often, somewhat arbitrarily, defined as 2°C above preindustrial temperatures. In the context of the Paris agreement, the ambition is 1.5°C. No matter what the limit is, we need some way of knowing if we’re going to exceed the warming limit or not. The answer in the last years has been whats called cumulative carbon emission budgets or, often, just carbon budgets.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>A thought experiment concerning back radiation</title>
-      <link>http://hansbrenna.github.io/posts/a-thought-experiment/</link>
-      <pubDate>Mon, 09 May 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://hansbrenna.github.io/posts/a-thought-experiment/</guid>
-      <description>A common illustration of the greenhouse effect is the idealized greenhouse model. This model captures some important features of the earth as a system in radiative balance. This figure from the Wikipedia page shows the basic idea.
-To solve the system in equilibrium, we can use the Stephan-Boltzmann law $$j*=\sigma Tˆ4$$ on each of the layers, modified by a non-unity emissivity $$\varepsilon$$ for the atmosphere. Incoming solar and outgoing radiation have very little overlap in their spectra, so to an ok approximation, we can treat them as non-overlapping.</description>
     </item>
     
   </channel>

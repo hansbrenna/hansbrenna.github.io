@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SDYCORE on Hans Brenna Schjønberg</title>
+    <link>http://hansbrenna.github.io/tags/sdycore/</link>
+    <description>Recent content in SDYCORE on Hans Brenna Schjønberg</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Oct 2018 00:00:00 +0000</lastBuildDate><atom:link href="http://hansbrenna.github.io/tags/sdycore/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The story of SDYCORE LAB part 1</title>
+      <link>http://hansbrenna.github.io/posts/sdycore-story-1/</link>
+      <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://hansbrenna.github.io/posts/sdycore-story-1/</guid>
+      <description>Like I&amp;rsquo;ve written about before, I have had a very strong interest in writing my own simple GCM/dynamical core. After several frustrating initial attempts, partly described here I switched strategy. Rather than attempting to reimplement someone else&amp;rsquo;s model from their description, I would start from the primitive equations and derive my own model, aiming for as much simplicity as possible in the system of equations.
+By working in an isobaric (pressure) vertical coordinate, the equations become very simple, but implementing a non-flat surface becomes computationally hard, so I chose simplicity over realism here for the first try.</description>
+    </item>
+    
+  </channel>
+</rss>

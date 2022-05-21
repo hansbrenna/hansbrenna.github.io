@@ -130,7 +130,7 @@
     <main class="pb7" role="main">
       
  <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
-    <p>TEST</p>
+    <p>I&rsquo;m a climate scientist with a PhD in meteorology from the University of Oslo. I currently work for the climate intelligence company <a href="http://cervest.earth">Cervest</a></p>
 
   </article>
   
@@ -164,14 +164,165 @@
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/posts/my-first-post/" class="color-inherit dim link">
-            My First Post
+          <a href="/posts/two-cultures/" class="color-inherit dim link">
+            Cultures of simulations vs. cultures of calculations: A look at Sundberg 2010
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          
+          One of the most interesting, and perhaps personally resonant, papers I&rsquo;ve ever come across is by Mikaela Sundberg (2010) and is called &ldquo;Cultures of simulations vs. cultures of calculations? The development of simulation practices in meteorology and astrophysics&rdquo;.
+The two cultures named in the title refers to two different approaches to numerical modeling and simulation in science. The paper looks at characteristics of these two culture in astrophysics and meteorology, and finds some differences.
         </div>
-          <a href="/posts/my-first-post/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+          <a href="/posts/two-cultures/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/posts/sdycore-story-1/" class="color-inherit dim link">
+            The story of SDYCORE LAB part 1
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          Like I&rsquo;ve written about before, I have had a very strong interest in writing my own simple GCM/dynamical core. After several frustrating initial attempts, partly described here I switched strategy. Rather than attempting to reimplement someone else&rsquo;s model from their description, I would start from the primitive equations and derive my own model, aiming for as much simplicity as possible in the system of equations.
+By working in an isobaric (pressure) vertical coordinate, the equations become very simple, but implementing a non-flat surface becomes computationally hard, so I chose simplicity over realism here for the first try.
+        </div>
+          <a href="/posts/sdycore-story-1/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/posts/sdycore-beta/" class="color-inherit dim link">
+            SDYCORE LAB in beta
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          The Simple Dynamical Core Lab (SDYCORE LAB) is a personal project to explore some numerical algorithms involved in primitive equations models of atmospheric dynamics in a simplified setting.
+The primitive equations are a set of nonlinear partial differential equations governing the large scale flow of fluids on a rotating planet. All modern weather prediction and general circulation models have at their core a solver for the primitive equations, with or without extra approximations.
+        </div>
+          <a href="/posts/sdycore-beta/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/posts/simple-gcm-1/" class="color-inherit dim link">
+            A really simple GCM part 1: A physicist meets modern Earth System Models
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          <p>Last spring, when I returned to work after my paternity leave, I felt frustrated that the GCM/ESM (CESM1) I&rsquo;m using for my research is so damned complicated. It&rsquo;s very hard to get any kind of feeling for how the massive model actually works. Of course I could spend forever reading the code and technical documentation, but the full complexity makes it difficult to grasp, and I would not have enough time to spend on actually doing my own research.</p>
+<p>Don&rsquo;t get me wrong, I like my model. It&rsquo;s just that I&rsquo;m a little bit uncomfortable with using models I don&rsquo;t fully understand. I guess this is an aspect of a subtle cultural difference between meteorology and some other physical sciences [1]. Since I have about 6 years of training as a physicist I bring that cultural baggage with me into my climate science/meteorology work, and It&rsquo;s making me uncomfortable with the &ldquo;black-boxiness&rdquo; of modern Earth System Models. In the physics fields I trained in you&rsquo;re generalyy expected to build your own simulation code, and if you inherit some code you&rsquo;re usually inheriting it from the person who built it and you&rsquo;re expected to fully understand everything before using it. Needless to say, that&rsquo;s not how it works in modern meteorology.</p>
+        </div>
+          <a href="/posts/simple-gcm-1/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/posts/klimamodellenes_begrensninger/" class="color-inherit dim link">
+            Hva betyr det at klimamodellene ikke stemmer med observasjonene?
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          [Klimamodellenes begrensninger] Jeg skrev i februar følgende tekst for Aftenposten viten: Klimamodellenese begrensninger
+Bakgrunnen var at FrP-politiker Carl I. Hagen, med støtte fra organisasjonen Klimarealistene, hadde en offentlig raptus om klimavitenskap og global oppvarming. Mange andre var også med i debatten, med tildels mye spissere innlegg enn det jeg skrev, men jeg så en mulighet for å forsøke å få gjennom noe fagformidling oppi det hele.
+Det er vanskelig å snakke om klimamodeller og deres forhold til observert temperaturutvikling.
+        </div>
+          <a href="/posts/klimamodellenes_begrensninger/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/posts/from-climate-forecast-to-carbon-budgets/" class="color-inherit dim link">
+            From climate forecast to carbon budgets – Unfounded probabilities at the heart of climate science.
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          <p>The stated goal of world climate policy is to avoid dangerous levels of global warming. This point is often, somewhat arbitrarily, defined as 2°C above preindustrial temperatures. In the context of the Paris agreement, the ambition is 1.5°C. No matter what the limit is, we need some way of knowing if we’re going to exceed the warming limit or not. The answer in the last years has been whats called cumulative carbon emission budgets or, often, just carbon budgets.</p>
+        </div>
+          <a href="/posts/from-climate-forecast-to-carbon-budgets/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/posts/a-thought-experiment/" class="color-inherit dim link">
+            A thought experiment concerning back radiation
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          A common illustration of the greenhouse effect is the idealized greenhouse model. This model captures some important features of the earth as a system in radiative balance. This figure from the Wikipedia page shows the basic idea.
+To solve the system in equilibrium, we can use the Stephan-Boltzmann law $$j*=\sigma Tˆ4$$ on each of the layers, modified by a non-unity emissivity $$\varepsilon$$ for the atmosphere. Incoming solar and outgoing radiation have very little overlap in their spectra, so to an ok approximation, we can treat them as non-overlapping.
+        </div>
+          <a href="/posts/a-thought-experiment/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
       </div>
     </div>
