@@ -8,12 +8,14 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 24 May 2022 18:49:17 +0200</lastBuildDate><atom:link href="http://hansbrenna.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Two Cultures Part Ii</title>
+      <title>Cultures of simulations vs. cultures of calculations revisited</title>
       <link>http://hansbrenna.github.io/posts/two-cultures-part-ii/</link>
       <pubDate>Tue, 24 May 2022 18:49:17 +0200</pubDate>
       
       <guid>http://hansbrenna.github.io/posts/two-cultures-part-ii/</guid>
-      <description></description>
+      <description>I find the framework presented in a previous post helpful for thinking about modeling practices in the climate field, compared to my previous experience as a computationally oriented physicist.
+Multiple questions I sometimes ask myself seem to find meaningful anchoring points in this framework:
+ When I perform a climate simulation, do I actually understand what is happening inside the numerical model? Is this even knowable in detail? What have we actually learned after performing a simulation?</description>
     </item>
     
     <item>
@@ -62,7 +64,7 @@ The primitive equations are a set of nonlinear partial differential equations go
       <pubDate>Fri, 12 May 2017 00:00:00 +0000</pubDate>
       
       <guid>http://hansbrenna.github.io/posts/klimamodellenes_begrensninger/</guid>
-      <description>[Klimamodellenes begrensninger] Jeg skrev i februar følgende tekst for Aftenposten viten: Klimamodellenese begrensninger
+      <description>Klimamodellenes begrensninger Jeg skrev i februar følgende tekst for Aftenposten viten: Klimamodellenese begrensninger
 Bakgrunnen var at FrP-politiker Carl I. Hagen, med støtte fra organisasjonen Klimarealistene, hadde en offentlig raptus om klimavitenskap og global oppvarming. Mange andre var også med i debatten, med tildels mye spissere innlegg enn det jeg skrev, men jeg så en mulighet for å forsøke å få gjennom noe fagformidling oppi det hele.
 Det er vanskelig å snakke om klimamodeller og deres forhold til observert temperaturutvikling.</description>
     </item>
