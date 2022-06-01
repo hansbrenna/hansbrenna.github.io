@@ -85,7 +85,7 @@ Det er vanskelig å snakke om klimamodeller og deres forhold til observert tempe
       
       <guid>http://hansbrenna.github.io/posts/a-thought-experiment/</guid>
       <description>A common illustration of the greenhouse effect is the idealized greenhouse model. This model captures some important features of the earth as a system in radiative balance. This figure from the Wikipedia page shows the basic idea.
-To solve the system in equilibrium, we can use the Stephan-Boltzmann law $$j*=\sigma Tˆ4$$ on each of the layers, modified by a non-unity emissivity $$\varepsilon$$ for the atmosphere. Incoming solar and outgoing radiation have very little overlap in their spectra, so to an ok approximation, we can treat them as non-overlapping.</description>
+To solve the system in equilibrium, we can use the Stephan-Boltzmann law $$j=\sigma T^4$$ on each of the layers, modified by a non-unity emissivity $$\varepsilon$$ for the atmosphere. Incoming solar and outgoing radiation have very little overlap in their spectra, so to an ok approximation, we can treat them as non-overlapping.</description>
     </item>
     
   </channel>
