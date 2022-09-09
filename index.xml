@@ -6,7 +6,11 @@
     <description>Recent content on Hans Brenna Schjønberg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 May 2022 12:24:53 +0200</lastBuildDate><atom:link href="http://hansbrenna.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 May 2022 12:24:53 +0200</lastBuildDate>
+    
+	<atom:link href="http://hansbrenna.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Climate models</title>
       <link>http://hansbrenna.github.io/climate_models/</link>
@@ -65,7 +69,7 @@ Peer reviewed publications  Brenna, H., Kutterolf, S., Mills, M. J., Niemeier, U
       <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>http://hansbrenna.github.io/posts/two-cultures/</guid>
-      <description>One of the most interesting, and perhaps personally resonant, papers I&amp;rsquo;ve ever come across is by Mikaela Sundberg (2010) and is called &amp;ldquo;Cultures of simulations vs. cultures of calculations? The development of simulation practices in meteorology and astrophysics&amp;rdquo;.
+      <description>One of the most interesting, and perhaps personally resonant, papers I&amp;rsquo;ve ever come across is by Mikaela Sundberg (2010) and is called &amp;ldquo;Cultures of simulations vs. cultures of calculations? The development of simulation practices in meteorology and astrophysics&amp;quot;.
 The two cultures named in the title refers to two different approaches to numerical modeling and simulation in science. The paper looks at characteristics of these two culture in astrophysics and meteorology, and finds some differences.</description>
     </item>
     

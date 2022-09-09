@@ -1,85 +1,139 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
   <url>
     <loc>http://hansbrenna.github.io/climate_models/</loc>
     <lastmod>2022-05-24T18:50:40+02:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>http://hansbrenna.github.io/posts/two-cultures-part-ii/</loc>
     <lastmod>2022-05-24T18:49:17+02:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>http://hansbrenna.github.io/posts/</loc>
     <lastmod>2022-05-24T18:49:17+02:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>http://hansbrenna.github.io/art/</loc>
     <lastmod>2022-05-23T11:37:26+02:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>http://hansbrenna.github.io/publications/</loc>
     <lastmod>2022-05-21T12:36:35+02:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>http://hansbrenna.github.io/</loc>
     <lastmod>2022-05-21T12:24:53+02:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>http://hansbrenna.github.io/about/</loc>
     <lastmod>2022-05-21T12:22:02+02:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>http://hansbrenna.github.io/posts/two-cultures/</loc>
     <lastmod>2018-12-14T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>http://hansbrenna.github.io/tags/model-code/</loc>
     <lastmod>2018-12-14T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>http://hansbrenna.github.io/tags/models/</loc>
     <lastmod>2018-12-14T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>http://hansbrenna.github.io/tags/</loc>
     <lastmod>2018-12-14T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>http://hansbrenna.github.io/tags/thoughts/</loc>
     <lastmod>2018-12-14T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>http://hansbrenna.github.io/tags/sdycore/</loc>
     <lastmod>2018-10-11T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>http://hansbrenna.github.io/posts/sdycore-story-1/</loc>
     <lastmod>2018-10-11T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>http://hansbrenna.github.io/posts/sdycore-beta/</loc>
     <lastmod>2018-10-10T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>http://hansbrenna.github.io/posts/simple-gcm-1/</loc>
     <lastmod>2018-02-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>http://hansbrenna.github.io/tags/climate-change-debate/</loc>
     <lastmod>2017-05-12T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>http://hansbrenna.github.io/posts/klimamodellenes_begrensninger/</loc>
     <lastmod>2017-05-12T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>http://hansbrenna.github.io/tags/norwegian/</loc>
     <lastmod>2017-05-12T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>http://hansbrenna.github.io/tags/carbon-budgets/</loc>
     <lastmod>2017-01-25T10:58:08-04:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>http://hansbrenna.github.io/tags/climate-modeling/</loc>
     <lastmod>2017-01-25T10:58:08-04:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>http://hansbrenna.github.io/tags/commentary/</loc>
     <lastmod>2017-01-25T10:58:08-04:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>http://hansbrenna.github.io/posts/from-climate-forecast-to-carbon-budgets/</loc>
     <lastmod>2017-01-25T10:58:08-04:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>http://hansbrenna.github.io/tags/interpretation/</loc>
     <lastmod>2017-01-25T10:58:08-04:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>http://hansbrenna.github.io/tags/probabilistic-prediction/</loc>
     <lastmod>2017-01-25T10:58:08-04:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>http://hansbrenna.github.io/posts/a-thought-experiment/</loc>
     <lastmod>2016-05-09T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>http://hansbrenna.github.io/categories/</loc>
   </url>
+  
 </urlset>

@@ -6,7 +6,11 @@
     <description>Recent content in carbon budgets on Hans Brenna Schjønberg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Jan 2017 10:58:08 -0400</lastBuildDate><atom:link href="http://hansbrenna.github.io/tags/carbon-budgets/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Jan 2017 10:58:08 -0400</lastBuildDate>
+    
+	<atom:link href="http://hansbrenna.github.io/tags/carbon-budgets/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>From climate forecast to carbon budgets – Unfounded probabilities at the heart of climate science.</title>
       <link>http://hansbrenna.github.io/posts/from-climate-forecast-to-carbon-budgets/</link>

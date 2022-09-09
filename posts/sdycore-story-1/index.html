@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="Like I&rsquo;ve written about before, I have had a very strong interest in writing my own simple GCM/dynamical core. After several frustrating initial attempts, partly described here I switched strategy. Rather than attempting to reimplement someone else&rsquo;s model from their description, I would start from the primitive equations and derive my own model, aiming for as much simplicity as possible in the system of equations.
 By working in an isobaric (pressure) vertical coordinate, the equations become very simple, but implementing a non-flat surface becomes computationally hard, so I chose simplicity over realism here for the first try.">
-    <meta name="generator" content="Hugo 0.99.1" />
+    <meta name="generator" content="Hugo 0.68.3" />
     
     
     
@@ -34,15 +34,18 @@ By working in an isobaric (pressure) vertical coordinate, the equations become v
 <meta property="og:description" content="Like I&rsquo;ve written about before, I have had a very strong interest in writing my own simple GCM/dynamical core. After several frustrating initial attempts, partly described here I switched strategy. Rather than attempting to reimplement someone else&rsquo;s model from their description, I would start from the primitive equations and derive my own model, aiming for as much simplicity as possible in the system of equations.
 By working in an isobaric (pressure) vertical coordinate, the equations become very simple, but implementing a non-flat surface becomes computationally hard, so I chose simplicity over realism here for the first try." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://hansbrenna.github.io/posts/sdycore-story-1/" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="http://hansbrenna.github.io/posts/sdycore-story-1/" />
 <meta property="article:published_time" content="2018-10-11T00:00:00+00:00" />
 <meta property="article:modified_time" content="2018-10-11T00:00:00+00:00" />
-
 <meta itemprop="name" content="The story of SDYCORE LAB part 1">
 <meta itemprop="description" content="Like I&rsquo;ve written about before, I have had a very strong interest in writing my own simple GCM/dynamical core. After several frustrating initial attempts, partly described here I switched strategy. Rather than attempting to reimplement someone else&rsquo;s model from their description, I would start from the primitive equations and derive my own model, aiming for as much simplicity as possible in the system of equations.
-By working in an isobaric (pressure) vertical coordinate, the equations become very simple, but implementing a non-flat surface becomes computationally hard, so I chose simplicity over realism here for the first try."><meta itemprop="datePublished" content="2018-10-11T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2018-10-11T00:00:00+00:00" />
+By working in an isobaric (pressure) vertical coordinate, the equations become very simple, but implementing a non-flat surface becomes computationally hard, so I chose simplicity over realism here for the first try.">
+<meta itemprop="datePublished" content="2018-10-11T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2018-10-11T00:00:00&#43;00:00" />
 <meta itemprop="wordCount" content="446">
+
+
+
 <meta itemprop="keywords" content="models,thoughts,model code,SDYCORE," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="The story of SDYCORE LAB part 1"/>
 <meta name="twitter:description" content="Like I&rsquo;ve written about before, I have had a very strong interest in writing my own simple GCM/dynamical core. After several frustrating initial attempts, partly described here I switched strategy. Rather than attempting to reimplement someone else&rsquo;s model from their description, I would start from the primitive equations and derive my own model, aiming for as much simplicity as possible in the system of equations.
@@ -184,7 +187,7 @@ By working in an isobaric (pressure) vertical coordinate, the equations become v
       
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Like I&rsquo;ve written about before, I have had a very strong interest in writing my own simple GCM/dynamical core. After several frustrating initial attempts, partly described <a href="http://hansbrenna.github.io/models/2018/02/01/simple-gcm-1">here</a> I switched strategy. Rather than attempting to reimplement someone else&rsquo;s model from their description, I would start from the primitive equations and derive my own model, aiming for as much simplicity as possible in the system of equations.</p>
-<p>By working in an isobaric (pressure) vertical coordinate, the equations become very simple, but implementing a non-flat surface becomes computationally hard, so I chose simplicity over realism here for the first try. The governing equations vere very neatly described in a 1974 paper by Akira Kasahara in Monthly Weather Review, called &ldquo;<a href="https://journals.ametsoc.org/doi/10.1175/1520-0493%281974%29102%3C0509%3AVVCSUF%3E2.0.CO%3B2">Various Vertical Coordinate Systems Used for Numerical Weather Prediction</a>&rdquo;.</p>
+<p>By working in an isobaric (pressure) vertical coordinate, the equations become very simple, but implementing a non-flat surface becomes computationally hard, so I chose simplicity over realism here for the first try. The governing equations vere very neatly described in a 1974 paper by Akira Kasahara in Monthly Weather Review, called &ldquo;<a href="https://journals.ametsoc.org/doi/10.1175/1520-0493%281974%29102%3C0509%3AVVCSUF%3E2.0.CO%3B2">Various Vertical Coordinate Systems Used for Numerical Weather Prediction</a>&quot;.</p>
 <p>The set of equations consist of 4 prognostic equations for horizontal wind, temperature and surface pressure which are extrapolated forward in time, and 3 diagnostic equations for vertical pressure velocity, pressure velocity at the surface and geopotantial height. In addition we need upper and lower boundary conditions. I&rsquo;ll get into the full derivation of the system of equations in a later post where I&rsquo;ll also go into details of the numerical scheme.</p>
 <p>While I was at the EGU this year, I started working on deriving the discrete equations with pen and paper, and implementing them in Python. The targeted case was the standard dry dynamical core benchmark described in the 1994 article by <a href="https://journals.ametsoc.org/doi/abs/10.1175/1520-0477%281994%29075%3C1825%3AAPFTIO%3E2.0.CO%3B2">Held and Suarez</a>. Now the entire thing was quite transparent to me, finally and I was able to implement the basic equations in a few days. Now began the quest for numerical stability (this will be the title of a post coming soon).</p>
 <p>This stage took me about a month, and the book &ldquo;<a href="https://link.springer.com/book/10.1007%2F978-3-642-11640-7">Numerical Techniques for Global Atmospheric Models</a>&rdquo; was an invaluable resource, especially Chapters 3, 4 and 13. I tried different ways of obtaining linear and non-linear stability and suppressing computational modes, eventually getting stability over longer simulations.</p>
