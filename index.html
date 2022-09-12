@@ -176,6 +176,55 @@
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/posts/dycore_docs_part2/" class="color-inherit dim link">
+            Documentation of the simple dynamical core part 2: Continuous equations
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          The system of continuous partial differential equations of motion for the atmosphere (relating the variables $\mathbf u = (u,v,w), \rho, T, p$) in its general form consists of:
+ Three equations for the conservation of momentum, usually written as a vector eqution. In the most general case, this is the Navier-Stokes equations on a rotating planet (neglecgting viscosity terms as these are unimportant for large-scale flow) $$ \frac{\partial \mathbf u}{\partial t} + \mathbf u\cdot \nabla\mathbf u+ 2\mathbf\Omega \times\mathbf u=-\nabla\left (\Phi -\frac{1}{2}(\mathbf \Omega \times \mathbf u)^2\right )-\frac{1}{\rho}\nabla p.
+        </div>
+          <a href="/posts/dycore_docs_part2/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/posts/dycore_docs_part1/" class="color-inherit dim link">
+            Documentation of the simple dynamical core part 1: Introduction
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          As I have written about repeatedly, I have implemented a &ldquo;very simple&rdquo; numerical atmospheric model in Python. More specifaclly I have implemented a dry &ldquo;dynamical core&rdquo;, ie. the part of a comprehensive atmospheric model that solves the system of fluid equations of motion for the atmosphere (excluding the transport of water vapor). In comprehensive atmospheric models, like weather forecasting or climate models, the dynamical core is the most numerically challening part of the model.
+        </div>
+          <a href="/posts/dycore_docs_part1/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
           <a href="/posts/two-cultures-part-ii/" class="color-inherit dim link">
             Cultures of simulations vs. cultures of calculations revisited
             </a>
@@ -410,6 +459,14 @@ To solve the system in equilibrium, we can use the Stephan-Boltzmann law $$j=\si
 </div>
 </div>
   </div>
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
   <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
   </script>
 </footer>

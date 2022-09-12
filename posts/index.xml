@@ -6,10 +6,29 @@
     <description>Recent content in Posts on Hans Brenna Schjønberg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 May 2022 18:49:17 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 12 Sep 2022 13:32:50 +0200</lastBuildDate>
     
 	<atom:link href="http://hansbrenna.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Documentation of the simple dynamical core part 2: Continuous equations</title>
+      <link>http://hansbrenna.github.io/posts/dycore_docs_part2/</link>
+      <pubDate>Mon, 12 Sep 2022 13:32:50 +0200</pubDate>
+      
+      <guid>http://hansbrenna.github.io/posts/dycore_docs_part2/</guid>
+      <description>The system of continuous partial differential equations of motion for the atmosphere (relating the variables $\mathbf u = (u,v,w), \rho, T, p$) in its general form consists of:
+ Three equations for the conservation of momentum, usually written as a vector eqution. In the most general case, this is the Navier-Stokes equations on a rotating planet (neglecgting viscosity terms as these are unimportant for large-scale flow) $$ \frac{\partial \mathbf u}{\partial t} + \mathbf u\cdot \nabla\mathbf u+ 2\mathbf\Omega \times\mathbf u=-\nabla\left (\Phi -\frac{1}{2}(\mathbf \Omega \times \mathbf u)^2\right )-\frac{1}{\rho}\nabla p.</description>
+    </item>
+    
+    <item>
+      <title>Documentation of the simple dynamical core part 1: Introduction</title>
+      <link>http://hansbrenna.github.io/posts/dycore_docs_part1/</link>
+      <pubDate>Fri, 09 Sep 2022 13:13:20 +0200</pubDate>
+      
+      <guid>http://hansbrenna.github.io/posts/dycore_docs_part1/</guid>
+      <description>As I have written about repeatedly, I have implemented a &amp;ldquo;very simple&amp;rdquo; numerical atmospheric model in Python. More specifaclly I have implemented a dry &amp;ldquo;dynamical core&amp;rdquo;, ie. the part of a comprehensive atmospheric model that solves the system of fluid equations of motion for the atmosphere (excluding the transport of water vapor). In comprehensive atmospheric models, like weather forecasting or climate models, the dynamical core is the most numerically challening part of the model.</description>
+    </item>
     
     <item>
       <title>Cultures of simulations vs. cultures of calculations revisited</title>

@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>Cultures of simulations vs. cultures of calculations: A look at Sundberg 2010 | Hans Brenna Schjønberg</title>
+    <title>Documentation of the simple dynamical core part 2: Continuous equations | Hans Brenna Schjønberg</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="One of the most interesting, and perhaps personally resonant, papers I&rsquo;ve ever come across is by Mikaela Sundberg (2010) and is called &ldquo;Cultures of simulations vs. cultures of calculations? The development of simulation practices in meteorology and astrophysics&quot;.
-The two cultures named in the title refers to two different approaches to numerical modeling and simulation in science. The paper looks at characteristics of these two culture in astrophysics and meteorology, and finds some differences.">
+    <meta name="description" content="The system of continuous partial differential equations of motion for the atmosphere (relating the variables $\mathbf u = (u,v,w), \rho, T, p$) in its general form consists of:
+ Three equations for the conservation of momentum, usually written as a vector eqution. In the most general case, this is the Navier-Stokes equations on a rotating planet (neglecgting viscosity terms as these are unimportant for large-scale flow) $$ \frac{\partial \mathbf u}{\partial t} &#43; \mathbf u\cdot \nabla\mathbf u&#43; 2\mathbf\Omega \times\mathbf u=-\nabla\left (\Phi -\frac{1}{2}(\mathbf \Omega \times \mathbf u)^2\right )-\frac{1}{\rho}\nabla p.">
     <meta name="generator" content="Hugo 0.68.3" />
     
     
@@ -30,26 +30,26 @@ The two cultures named in the title refers to two different approaches to numeri
 
     
     
-    <meta property="og:title" content="Cultures of simulations vs. cultures of calculations: A look at Sundberg 2010" />
-<meta property="og:description" content="One of the most interesting, and perhaps personally resonant, papers I&rsquo;ve ever come across is by Mikaela Sundberg (2010) and is called &ldquo;Cultures of simulations vs. cultures of calculations? The development of simulation practices in meteorology and astrophysics&quot;.
-The two cultures named in the title refers to two different approaches to numerical modeling and simulation in science. The paper looks at characteristics of these two culture in astrophysics and meteorology, and finds some differences." />
+    <meta property="og:title" content="Documentation of the simple dynamical core part 2: Continuous equations" />
+<meta property="og:description" content="The system of continuous partial differential equations of motion for the atmosphere (relating the variables $\mathbf u = (u,v,w), \rho, T, p$) in its general form consists of:
+ Three equations for the conservation of momentum, usually written as a vector eqution. In the most general case, this is the Navier-Stokes equations on a rotating planet (neglecgting viscosity terms as these are unimportant for large-scale flow) $$ \frac{\partial \mathbf u}{\partial t} &#43; \mathbf u\cdot \nabla\mathbf u&#43; 2\mathbf\Omega \times\mathbf u=-\nabla\left (\Phi -\frac{1}{2}(\mathbf \Omega \times \mathbf u)^2\right )-\frac{1}{\rho}\nabla p." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://hansbrenna.github.io/posts/two-cultures/" />
-<meta property="article:published_time" content="2018-12-14T00:00:00+00:00" />
-<meta property="article:modified_time" content="2018-12-14T00:00:00+00:00" />
-<meta itemprop="name" content="Cultures of simulations vs. cultures of calculations: A look at Sundberg 2010">
-<meta itemprop="description" content="One of the most interesting, and perhaps personally resonant, papers I&rsquo;ve ever come across is by Mikaela Sundberg (2010) and is called &ldquo;Cultures of simulations vs. cultures of calculations? The development of simulation practices in meteorology and astrophysics&quot;.
-The two cultures named in the title refers to two different approaches to numerical modeling and simulation in science. The paper looks at characteristics of these two culture in astrophysics and meteorology, and finds some differences.">
-<meta itemprop="datePublished" content="2018-12-14T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2018-12-14T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="784">
+<meta property="og:url" content="http://hansbrenna.github.io/posts/dycore_docs_part2/" />
+<meta property="article:published_time" content="2022-09-12T13:32:50+02:00" />
+<meta property="article:modified_time" content="2022-09-12T13:32:50+02:00" />
+<meta itemprop="name" content="Documentation of the simple dynamical core part 2: Continuous equations">
+<meta itemprop="description" content="The system of continuous partial differential equations of motion for the atmosphere (relating the variables $\mathbf u = (u,v,w), \rho, T, p$) in its general form consists of:
+ Three equations for the conservation of momentum, usually written as a vector eqution. In the most general case, this is the Navier-Stokes equations on a rotating planet (neglecgting viscosity terms as these are unimportant for large-scale flow) $$ \frac{\partial \mathbf u}{\partial t} &#43; \mathbf u\cdot \nabla\mathbf u&#43; 2\mathbf\Omega \times\mathbf u=-\nabla\left (\Phi -\frac{1}{2}(\mathbf \Omega \times \mathbf u)^2\right )-\frac{1}{\rho}\nabla p.">
+<meta itemprop="datePublished" content="2022-09-12T13:32:50&#43;02:00" />
+<meta itemprop="dateModified" content="2022-09-12T13:32:50&#43;02:00" />
+<meta itemprop="wordCount" content="923">
 
 
 
-<meta itemprop="keywords" content="models,thoughts,model code," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Cultures of simulations vs. cultures of calculations: A look at Sundberg 2010"/>
-<meta name="twitter:description" content="One of the most interesting, and perhaps personally resonant, papers I&rsquo;ve ever come across is by Mikaela Sundberg (2010) and is called &ldquo;Cultures of simulations vs. cultures of calculations? The development of simulation practices in meteorology and astrophysics&quot;.
-The two cultures named in the title refers to two different approaches to numerical modeling and simulation in science. The paper looks at characteristics of these two culture in astrophysics and meteorology, and finds some differences."/>
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Documentation of the simple dynamical core part 2: Continuous equations"/>
+<meta name="twitter:description" content="The system of continuous partial differential equations of motion for the atmosphere (relating the variables $\mathbf u = (u,v,w), \rho, T, p$) in its general form consists of:
+ Three equations for the conservation of momentum, usually written as a vector eqution. In the most general case, this is the Navier-Stokes equations on a rotating planet (neglecgting viscosity terms as these are unimportant for large-scale flow) $$ \frac{\partial \mathbf u}{\partial t} &#43; \mathbf u\cdot \nabla\mathbf u&#43; 2\mathbf\Omega \times\mathbf u=-\nabla\left (\Phi -\frac{1}{2}(\mathbf \Omega \times \mathbf u)^2\right )-\frac{1}{\rho}\nabla p."/>
 
 	
   </head>
@@ -166,7 +166,7 @@ The two cultures named in the title refers to two different approaches to numeri
   <div id="sharing" class="mt3 ananke-socials">
     
       
-      <a href="https://twitter.com/share?url=http://hansbrenna.github.io/posts/two-cultures/&amp;text=Cultures%20of%20simulations%20vs.%20cultures%20of%20calculations:%20A%20look%20at%20Sundberg%202010" class="ananke-social-link twitter no-underline" aria-label="share on Twitter">
+      <a href="https://twitter.com/share?url=http://hansbrenna.github.io/posts/dycore_docs_part2/&amp;text=Documentation%20of%20the%20simple%20dynamical%20core%20part%202:%20Continuous%20equations" class="ananke-social-link twitter no-underline" aria-label="share on Twitter">
         
         <span class="icon"> <svg style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
 </span>
@@ -176,46 +176,89 @@ The two cultures named in the title refers to two different approaches to numeri
   </div>
 
 
-      <h1 class="f1 athelas mt3 mb1">Cultures of simulations vs. cultures of calculations: A look at Sundberg 2010</h1>
+      <h1 class="f1 athelas mt3 mb1">Documentation of the simple dynamical core part 2: Continuous equations</h1>
       
       
       
-      <time class="f6 mv4 dib tracked" datetime="2018-12-14T00:00:00Z">December 14, 2018</time>
+      <time class="f6 mv4 dib tracked" datetime="2022-09-12T13:32:50+02:00">September 12, 2022</time>
       
 
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>One of the most interesting, and perhaps personally resonant, papers I&rsquo;ve ever come across is by Mikaela Sundberg (2010) and is called &ldquo;<a href="https://www.sciencedirect.com/science/article/pii/S1355219810000444?via%3Dihub">Cultures of simulations vs. cultures of calculations? The development of simulation practices in meteorology and astrophysics</a>&quot;.</p>
-<p>The two cultures named in the title refers to two different approaches to numerical modeling and simulation in science. The paper looks at characteristics of these two culture in astrophysics and meteorology, and finds some differences. To explain what characterices the two cultures, I think I&rsquo;ll just quote the paper:</p>
-<blockquote>
-<p>The culture of calculation is modern and characterized by linearity, logic and depth, and there is a promise to explain, unpack, reduce and clarify its outcomes (Turkle, 1995). For the computer considered as a calculator, this means that what happens inside it can be (mechanically) unpacked. If we apply this conceptualization of the modern to numerical simulation activities it implies developers/constructors who build their codes by and for themselves. When analyzing the outcomes of simulations, they unpack the computer programs to reach the underlying mathematical model.</p>
-</blockquote>
-<blockquote>
-<p>Postmodern culture of simulation is fluid, decentered, and opaque and search for mechanisms and depth is futile (Turkle, 1995). The boundary between the virtual and the real is eroded, both in everyday life and in scientific fields. We can simulate nature in a program or build second natures where the objects visualized on the screen have no simple physical referent (cf. Helmreich, 1998). Images have been highlighted as a crucial aspect of postmodern society and visualization is one of the major themes in Turkle’s (2009) more recent collection of essays on simulation practices. However, Frigg and Reiss (2009) note that visual representations are not particular to simulations and that dynamic (such as cinematic) representations, contain exactly the same information as a (static) table or plot, but that the former may be easier grasp. They dismiss this special feature of simulations from the realm of philosophical interest, yet there might be sociological implications and consequences worth discussing. For example, the presentation of visual material in the form of animations compared to discussion of equations can be regarded as manifestations of the distinction between surface (culture of simulation) and depth (culture of calculations). Do animations invite us to look, rather than think (cf. Jin, 2008: 147)? Are they entertaining rather than evidential and as such serving to seduce scientists to overestimate the credibility of simulations (cf. Baudrillard, [1970] 1998; Lahsen, 2005; Turkle, 2009)?</p>
-</blockquote>
-<blockquote>
-<p>Importantly, Turkle (1995) emphasizes the shift from programming to use of computer programs which took place from the 1970s through the 1990s and she describes the user as someone seduced by the interface and involved with the machine in a hands-on and applied way, not interested in why technology works, but only that it works.3 Because such a shift from construction and development (“depth”) of simulation codes, involving writing equations, adding new modules, coding, programming etc., to use (“surface”) as black-boxes without paying much attention to the inside is a basis for cultures of simulation to evolve, it is of elementary importance to take it as a starting point for analyzing the work with simulations codes in science too.</p>
-</blockquote>
-<blockquote>
-<p>Moreover, a postmodern approach implies playful exploration at the interface rather than serious, in-depth investigation (cf. Jameson, 1984). Play in the common sense meaning used here refers to engagement in activities for enjoyment, rather than for serious or practical purposes. Thus, the dichotomy seriousness/play characterizes the modern vs. the postmodern. Yet from a sociological viewpoint, play is commonly regarded as a part of socialization (see e.g. Mead, 1934). To distinguish among the modern and the postmodern I therefore draw upon Baudrillard to propose that they are characterized by different playful attitudes. Baudrillard ([1970] 1998: 114) refers to passion as a playful attitude consisting of sincere desire and a concrete relation to an object which implies total investment and intense symbolic value, whereas the playful attitude of mere curiosity is more volatile and characteristic of the consumer (postmodern) society. If contemporary culture is marked by preference for extremes (Baudrillard, ([1970] 1998; cf. Bogard, 1990), extremeness might be required to create curiosity. For modelers, such a preference would imply that they no longer seek to generate simulation output that appears reasonable in relation to the real world (cf. also Turkle, 2009: 56f.), but amuse themselves with extreme, rather than reasonable, scenarios instead.</p>
-</blockquote>
-<blockquote>
-<p>To summarize, cultures of simulation and cultures of calculation can be characterized by the dichotomies surface/depth, play/seriousness, and finally, extreme/reasonable. They are used to discuss how these “cultures” exist side by side as manifested in different simulation activities and situations, not as characterizing whole fields or generations of scientists. However, indications of shifts in emphasis over time can be observed.</p>
-</blockquote>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>The system of continuous partial differential equations of motion for the atmosphere (relating the variables $\mathbf u = (u,v,w), \rho, T, p$) in its general form consists of:</p>
+<ul>
+<li>Three equations for the conservation of momentum, usually written as a vector eqution. In the most general case, this is the Navier-Stokes equations on a rotating planet (neglecgting viscosity terms as these are unimportant for large-scale flow)
+$$ \frac{\partial \mathbf u}{\partial t} + \mathbf u\cdot \nabla\mathbf u+ 2\mathbf\Omega \times\mathbf u=-\nabla\left (\Phi -\frac{1}{2}(\mathbf \Omega \times \mathbf u)^2\right )-\frac{1}{\rho}\nabla p.$$</li>
+<li>The continuity eqution for the conservation of mass
+$$ \frac{\partial\rho}{\partial t} + \nabla\cdot(\rho\mathbf u) = 0.$$</li>
+<li>The thermodynamic equation for conservation of energy
+$$ \frac{\partial\theta}{\partial t} + \mathbf u\cdot\nabla(T) = \frac{\theta}{T}\frac{Q}{c_p}$$
+where $\theta = T(\frac{p_0}{p})^{(R/c_p)}$. In addition, a relation between pressure, density and temperature is needed, like the ideal gas law.</li>
+</ul>
+<p>This system of equations is complicated to solve numerically due to the presence of fast sound waves propagating in three dimensions. Typically, a series of approximations are made to get the set of equations called the hydrostatic primitive equations in the traditional approximation. I chose this set of equations to implement in my model since this is the typical set of equations used in most global climate models (including CESM which I used for my PhD). The approximations are:</p>
+<ul>
+<li>The hydrostatic approximation:
+<ul>
+<li>No acceleration in the vertical, gravitational term balances vertical pressure gradient. This turns the vertical equation of motion into the hydrostatic equation.</li>
+</ul>
+</li>
+<li>The shallow atmosphere approximation:
+<ul>
+<li>$r = a+z$ where $a$ is the radius of the Earth, and $a&raquo;z$. This means that the vertical scale of motion is much smaller than the horizontal scale. This means that we can replace $r$ with $a$ except when differentiating with respect to $r$ (when $z$ is commonly used instead).</li>
+</ul>
+</li>
+<li>The traditional approximation, which needs to be made together with the shallow atmosphere approximation:
+<ul>
+<li>Metric and coriolis terms involving the vertical velocity are neglected (metric terms come from the expression of the total derivative of a vector in spherical geometry. I will point out the remaining ones later).</li>
+</ul>
+</li>
+</ul>
+<p>After these approximations, the equations of motion are:</p>
+<ul>
+<li>Conservation of momentum:
+$$\frac{\partial \mathbf u}{\partial t} + \mathbf u\cdot \nabla\mathbf u+ f\mathbf k \times\mathbf u=-\frac{1}{\rho}\nabla p$$
+where $\mathbf u=(u,v)$ now is the horizontal velocity vector. The vertical equation of motion has turned into the hydrostatic equation
+$$\frac{\partial p}{\partial z}=-\rho g$$</li>
+<li>Conservation of mass is unchanged when written in terms of the $\nabla$-operator and the velocity vector, though some terms have changed under the hood.</li>
+<li>Conservation of energy is also unchanged in the same sense.</li>
+</ul>
+<p>In all of the above the implicit coordinate system is a form of tue &ldquo;geoscientific sherical coordinate system&rdquo; $(\lambda,\phi,z)$ with $\lambda\in[-\pi,\pi)$ representing  longitude, $\phi\in[-\pi/2,\pi/2]$ representing latitude, and $z\in[0,z_T)$ reprenting height above sea level in meters.</p>
+<p>Since the system of equations lacks an equation for $w$, numrical solution of it is complicated. It can be made more tractable by changing from height to pressure as the vertical coordinate: Instead if $z$ we take $p\in[p_T,p_s]$ where $p_T, p_s$ are the pressure at the model top and the Earth&rsquo;s surface, respectively. The variables in this system are $\mathbf u = (u,v),\omega, \rho, T, z$. This change implies replacing the pressure gradient force with a term representing the gradient of the geopotential of a pressure layer. The continuity equation takes the simple form</p>
+<p>$$\nabla\cdot \mathbf u + \frac{\partial \omega}{\partial p}=0.$$</p>
+<p>At this point, we need to talk about upper and lower boundary conditions. At the top of the model ($p=p_T=const.$), we have $\omega=\frac{dp}{dt}=0$, assuming zero mass transfer across the model top. At the surface ($p=p_s$) we have</p>
+<p>$$\omega=\omega_s=\frac{\partial p_s}{\partial t} + \mathbf u_s \cdot \nabla p_s.$$</p>
+<p>The continuity equation and upper boundary condition can  be used to calculate the vertical pressure velocity $\omega$ by integrating from the top of the model, down to a specific level:
+$$\omega=-\int_{p_T}^{p}\nabla\cdot\mathbf u dp.$$</p>
+<p>Extending this integration to the surface we have another expression for $\omega_s$:
+$$\omega_s=-\int_{p_T}^{p_s}\nabla\cdot\mathbf udp.$$</p>
+<p>Substituting this expression for $\omega_s$ into the lower boundary condition and rearanging gives us the surface pressure tendency equation:
+$$\frac{\partial p_s}{\partial t}=-\mathbf u_s \cdot\nabla p_s-\int_{p_T}^{p_s}\nabla\cdot\mathbf udp.$$</p>
+<p>Using the ideal gas law to emilimate $\rho$ from the hydrostatic equation and integrating from the surface ($z=z_s$) yields the following expression for the geopotential height of a given layer:</p>
+<p>$$gz = gz_s+R\int_{p}^{p_s} T d(\ln p).$$</p>
+<p>So to summarize, to implement the atmospheric model I used the primitive equations in the form described above:</p>
+<ul>
+<li>Equation of motion for zonal wind $u$ (prognostic, i.e. involving time derivatives):
+$$\frac{\partial u}{\partial t} + \mathbf u\cdot \nabla u + \omega\frac{\partial u}{\partial p}+ fv + \frac{uv}{a}\tan\phi=-g\nabla z + F_\lambda$$</li>
+<li>Equation of motion for meridional wind $v$ (prognostic):
+$$\frac{\partial v}{\partial t} + \mathbf u\cdot \nabla v + \omega\frac{\partial v}{\partial p} - fu + \frac{u^2}{a}\tan\phi=-g\nabla z + F_\lambda$$</li>
+<li>Thermodynamic equation (prognostic):
+$$\frac{\partial T}{\partial t} + \mathbf u\cdot\nabla T + \frac{\omega T}{\theta}\frac{\partial \theta}{\partial p} = \frac{Q}{c_p}$$</li>
+<li>Surface pressure tendency (prognostic):
+$$\frac{\partial p_s}{\partial t}=-\mathbf u_s \cdot\nabla p_s-\int_{p_T}^{p_s}\nabla\cdot\mathbf udp$$</li>
+<li>Vertical pressure velocity equation (diagnostic, i.e. involves no time derivatives):
+$$\omega=-\int_{p_T}^{p}\nabla\cdot\mathbf u dp$$</li>
+<li>Vertical pressure velocity equation at the surface (diagnostic):
+$$\omega_s=-\int_{p_T}^{p_s}\nabla\cdot\mathbf udp$$</li>
+<li>Equation for the geopotential height (diagnostic):
+$$gz = gz_s+R\int_{p}^{p_s} T d(\ln p)$$</li>
+</ul>
+<p>In the equation of motion and the thermodynamic equation the terms $F_{\lambda,\phi}$ and $Q$ represent all other sources of force (typically friction) or heating (absorption of sunlight, moist processes), respectively. The terms involving $\tan\phi$ are the remaining metric terms.</p>
+<p>The gradient of a scalar in the spherical coordinate system assuming a shallow atmosphere is:
+$$\nabla\psi=\frac{\hat i}{a\cos\phi}\frac{\partial\psi}{\partial\lambda}+\hat j \frac{1}{a}\frac{\partial\psi}{\partial\phi}.$$
+The divergence of a vector is:
+$$\nabla\cdot\mathbf A=\frac{1}{a\cos\phi}\left[\frac{\partial A_\lambda}{\partial\lambda}+\frac{\partial (A_\phi\cos\phi)}{\partial\phi}\right].$$</p>
 <ul class="pa0">
-  
-   <li class="list di">
-     <a href="/tags/models" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">models</a>
-   </li>
-  
-   <li class="list di">
-     <a href="/tags/thoughts" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">thoughts</a>
-   </li>
-  
-   <li class="list di">
-     <a href="/tags/model-code" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">model code</a>
-   </li>
   
 </ul>
 <div class="mt6 instapaper_ignoref">
@@ -228,25 +271,6 @@ The two cultures named in the title refers to two different approaches to numeri
 
 
 
-
-  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
-    <p class="f5 b mb3">Related</p>
-    <ul class="pa0 list">
-	   
-	     <li  class="mb2">
-          <a href="/posts/sdycore-story-1/">The story of SDYCORE LAB part 1</a>
-        </li>
-	    
-	     <li  class="mb2">
-          <a href="/posts/sdycore-beta/">SDYCORE LAB in beta</a>
-        </li>
-	    
-	     <li  class="mb2">
-          <a href="/posts/simple-gcm-1/">A really simple GCM part 1: A physicist meets modern Earth System Models</a>
-        </li>
-	    
-    </ul>
-</div>
 
 </aside>
 

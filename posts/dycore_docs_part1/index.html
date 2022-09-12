@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>climate change debate | Hans Brenna Schjønberg</title>
+    <title>Documentation of the simple dynamical core part 1: Introduction | Hans Brenna Schjønberg</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="The last theme you&#39;ll ever need. Maybe.">
+    <meta name="description" content="As I have written about repeatedly, I have implemented a &ldquo;very simple&rdquo; numerical atmospheric model in Python. More specifaclly I have implemented a dry &ldquo;dynamical core&rdquo;, ie. the part of a comprehensive atmospheric model that solves the system of fluid equations of motion for the atmosphere (excluding the transport of water vapor). In comprehensive atmospheric models, like weather forecasting or climate models, the dynamical core is the most numerically challening part of the model.">
     <meta name="generator" content="Hugo 0.68.3" />
     
     
@@ -29,20 +29,23 @@
 
     
     
-      <link href="/tags/climate-change-debate/index.xml" rel="alternate" type="application/rss+xml" title="Hans Brenna Schjønberg" />
-      <link href="/tags/climate-change-debate/index.xml" rel="feed" type="application/rss+xml" title="Hans Brenna Schjønberg" />
-      
-    
-    
-    <meta property="og:title" content="climate change debate" />
-<meta property="og:description" content="The last theme you&#39;ll ever need. Maybe." />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://hansbrenna.github.io/tags/climate-change-debate/" />
-<meta property="og:updated_time" content="2017-05-12T00:00:00+00:00" />
-<meta itemprop="name" content="climate change debate">
-<meta itemprop="description" content="The last theme you&#39;ll ever need. Maybe."><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="climate change debate"/>
-<meta name="twitter:description" content="The last theme you&#39;ll ever need. Maybe."/>
+    <meta property="og:title" content="Documentation of the simple dynamical core part 1: Introduction" />
+<meta property="og:description" content="As I have written about repeatedly, I have implemented a &ldquo;very simple&rdquo; numerical atmospheric model in Python. More specifaclly I have implemented a dry &ldquo;dynamical core&rdquo;, ie. the part of a comprehensive atmospheric model that solves the system of fluid equations of motion for the atmosphere (excluding the transport of water vapor). In comprehensive atmospheric models, like weather forecasting or climate models, the dynamical core is the most numerically challening part of the model." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://hansbrenna.github.io/posts/dycore_docs_part1/" />
+<meta property="article:published_time" content="2022-09-09T13:13:20+02:00" />
+<meta property="article:modified_time" content="2022-09-09T13:13:20+02:00" />
+<meta itemprop="name" content="Documentation of the simple dynamical core part 1: Introduction">
+<meta itemprop="description" content="As I have written about repeatedly, I have implemented a &ldquo;very simple&rdquo; numerical atmospheric model in Python. More specifaclly I have implemented a dry &ldquo;dynamical core&rdquo;, ie. the part of a comprehensive atmospheric model that solves the system of fluid equations of motion for the atmosphere (excluding the transport of water vapor). In comprehensive atmospheric models, like weather forecasting or climate models, the dynamical core is the most numerically challening part of the model.">
+<meta itemprop="datePublished" content="2022-09-09T13:13:20&#43;02:00" />
+<meta itemprop="dateModified" content="2022-09-09T13:13:20&#43;02:00" />
+<meta itemprop="wordCount" content="336">
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Documentation of the simple dynamical core part 1: Introduction"/>
+<meta name="twitter:description" content="As I have written about repeatedly, I have implemented a &ldquo;very simple&rdquo; numerical atmospheric model in Python. More specifaclly I have implemented a dry &ldquo;dynamical core&rdquo;, ie. the part of a comprehensive atmospheric model that solves the system of fluid equations of motion for the atmosphere (excluding the transport of water vapor). In comprehensive atmospheric models, like weather forecasting or climate models, the dynamical core is the most numerically challening part of the model."/>
 
 	
   </head>
@@ -50,9 +53,11 @@
   <body class="ma0 avenir bg-near-white">
 
     
+   
+  
 
   <header>
-    <div class="pb3-m pb6-l bg-black">
+    <div class="bg-black">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
     <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
@@ -129,47 +134,76 @@
   </div>
 </nav>
 
-      <div class="tc-l pv3 ph3 ph4-ns">
-        <h1 class="f2 f-subheadline-l fw2 light-silver mb0 lh-title">
-          climate change debate
-        </h1>
-        
-      </div>
     </div>
   </header>
 
 
+
     <main class="pb7" role="main">
       
-  <article class="cf pa3 pa4-m pa4-l">
-    <div class="measure-wide-l center f4 lh-copy nested-copy-line-height nested-links mid-gray">
-      <p>Below you will find pages that utilize the taxonomy term “climate change debate”</p>
-    </div>
-  </article>
-  <div class="mw8 center">
-    <section class="flex-ns flex-wrap justify-around mt5">
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        POSTS
+      </aside>
       
-        <div class="relative w-100  mb4 bg-white">
-          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">Posts</span>
-    <h1 class="f3 near-black">
-      <a href="/posts/klimamodellenes_begrensninger/" class="link black dim">
-        Hva betyr det at klimamodellene ikke stemmer med observasjonene?
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      Klimamodellenes begrensninger Jeg skrev i februar følgende tekst for Aftenposten viten: Klimamodellenese begrensninger
-Bakgrunnen var at FrP-politiker Carl I. Hagen, med støtte fra organisasjonen Klimarealistene, hadde en offentlig raptus om klimavitenskap og global oppvarming. Mange andre var også med i debatten, med tildels mye spissere innlegg enn det jeg skrev, men jeg så en mulighet for å forsøke å få gjennom noe fagformidling oppi det hele.
-Det er vanskelig å snakke om klimamodeller og deres forhold til observert temperaturutvikling.
-    </div>
-  </div>
-</div>
 
-        </div>
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
       
-    </section>
+      <a href="https://twitter.com/share?url=http://hansbrenna.github.io/posts/dycore_docs_part1/&amp;text=Documentation%20of%20the%20simple%20dynamical%20core%20part%201:%20Introduction" class="ananke-social-link twitter no-underline" aria-label="share on Twitter">
+        
+        <span class="icon"> <svg style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+</span>
+        
+      </a>
+    
   </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">Documentation of the simple dynamical core part 1: Introduction</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2022-09-09T13:13:20+02:00">September 9, 2022</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>As I have written about repeatedly, I have implemented a &ldquo;very simple&rdquo; numerical atmospheric model in Python. More specifaclly I have implemented a dry &ldquo;dynamical core&rdquo;, ie. the part of a comprehensive atmospheric model that solves the system of fluid equations of motion for the atmosphere (excluding the transport of water vapor). In comprehensive atmospheric models, like weather forecasting or climate models, the dynamical core is the most numerically challening part of the model. Because of their high level of optimization the mathematics, numerics and code of these computer programs are quite inaccessible.</p>
+<p>To get a feeling for what it takes to make even the simplest possible such models work, I implemented my own. The model code works quite well, but to aid myself in actually writing documentation for it I will make it into a series of blog posts before I start any new major work on the code. I have several large refactoring and development ideas in consideration, but I need actual documentation before undertaking any more serious development.</p>
+<p>A brief summary: The model implemented in the Github repository <a href="https://github.com/hansbrenna/sdycore_lab">sdycore_lab</a> is a hydrostatic primitive equations model using pressure as the vertical coordinate. The numerical solution strategy consits of a basic 4th order finite difference method on an Arakawa A-grid for the horizontal derivatives, a 2nd order finite difference method on a staggered Lorentz grid in the vertical, and the leapfrog method for time stepping. The phyical forcing is the standard Held-Suarez benchmark test. Linear numerical stability is achieved by Fourier filetering the poleward regions to remove short wave components. Nonlinear stability is achieved through 4th order Shapiro filters in space. The computational mode of the leapfrog method is suppressed using the Robert-Asselin filter. Neither mass, nor energy is conserved in the numerical model, so both energy and mass is kept constant using ad-hoc fixers.</p>
+<p>If the above seems dense, my goal is to describe everything in excruciating detail. Keep tuned for a potentially very boring series of posts.</p>
+<p>Next up: Selecting equations of motion</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
 
     </main>
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">

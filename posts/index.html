@@ -38,7 +38,7 @@
 <meta property="og:description" content="The last theme you&#39;ll ever need. Maybe." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://hansbrenna.github.io/posts/" />
-<meta property="og:updated_time" content="2022-05-24T18:49:17+02:00" />
+<meta property="og:updated_time" content="2022-09-12T13:32:50+02:00" />
 <meta itemprop="name" content="Posts">
 <meta itemprop="description" content="The last theme you&#39;ll ever need. Maybe."><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Posts"/>
@@ -144,6 +144,41 @@
   <article class="pa3 pa4-ns nested-copy-line-height">
     <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray"></section>
     <section class="flex-ns flex-wrap justify-around mt5">
+      
+        <div class="relative w-100 w-30-l mb4 bg-white">
+          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="/posts/dycore_docs_part2/" class="link black dim">
+        Documentation of the simple dynamical core part 2: Continuous equations
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      The system of continuous partial differential equations of motion for the atmosphere (relating the variables $\mathbf u = (u,v,w), \rho, T, p$) in its general form consists of:
+ Three equations for the conservation of momentum, usually written as a vector eqution. In the most general case, this is the Navier-Stokes equations on a rotating planet (neglecgting viscosity terms as these are unimportant for large-scale flow) $$ \frac{\partial \mathbf u}{\partial t} + \mathbf u\cdot \nabla\mathbf u+ 2\mathbf\Omega \times\mathbf u=-\nabla\left (\Phi -\frac{1}{2}(\mathbf \Omega \times \mathbf u)^2\right )-\frac{1}{\rho}\nabla p.
+    </div>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white">
+          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="/posts/dycore_docs_part1/" class="link black dim">
+        Documentation of the simple dynamical core part 1: Introduction
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      As I have written about repeatedly, I have implemented a &ldquo;very simple&rdquo; numerical atmospheric model in Python. More specifaclly I have implemented a dry &ldquo;dynamical core&rdquo;, ie. the part of a comprehensive atmospheric model that solves the system of fluid equations of motion for the atmosphere (excluding the transport of water vapor). In comprehensive atmospheric models, like weather forecasting or climate models, the dynamical core is the most numerically challening part of the model.
+    </div>
+  </div>
+</div>
+
+        </div>
       
         <div class="relative w-100 w-30-l mb4 bg-white">
           <div class="relative w-100 mb4 bg-white nested-copy-line-height">
@@ -328,6 +363,14 @@ To solve the system in equilibrium, we can use the Stephan-Boltzmann law $$j=\si
 </div>
 </div>
   </div>
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
   <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
   </script>
 </footer>
